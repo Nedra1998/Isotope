@@ -13,6 +13,7 @@ colors can be found in [TODO].
   * [Light Colors](#light-colors)
   * [Normal Colors](#normal-colors)
   * [Dark Colors](#dark-colors)
+  * [Greys](#greys)
 
 <!-- vim-markdown-toc -->
 
@@ -33,7 +34,7 @@ Isotope currently has syntax themes for the following programs
 |             | L                                                        | N                                                        | D                                                        |
 |-------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
 | Red         | ![#FF8961](https://placehold.it/15/ff8961/000000?text=+) | ![#F44336](https://placehold.it/15/F44336/000000?text=+) | ![#BA000D](https://placehold.it/15/BA000D/000000?text=+) |
-| Pink        | ![#FF6090](https://placehold.it/15/ff6090/000000?text=+) | ![#FF6090](https://placehold.it/15/E91E63/000000?text=+) | ![#B0003A](https://placehold.it/15/B0003A/000000?text=+) |
+| Pink        | ![#FF6090](https://placehold.it/15/ff6090/000000?text=+) | ![#E91E63](https://placehold.it/15/E91E63/000000?text=+) | ![#B0003A](https://placehold.it/15/B0003A/000000?text=+) |
 | Purple      | ![#D05CE3](https://placehold.it/15/d05ce3/000000?text=+) | ![#9C27B0](https://placehold.it/15/9C27B0/000000?text=+) | ![#6A0080](https://placehold.it/15/6A0080/000000?text=+) |
 | Deep Purple | ![#9A67EA](https://placehold.it/15/9a67ea/000000?text=+) | ![#673AB7](https://placehold.it/15/673AB7/000000?text=+) | ![#320B86](https://placehold.it/15/320B86/000000?text=+) |
 | Indigo      | ![#757DE8](https://placehold.it/15/757de8/000000?text=+) | ![#3F51B5](https://placehold.it/15/3F51B5/000000?text=+) | ![#002984](https://placehold.it/15/002984/000000?text=+) |
@@ -80,7 +81,7 @@ Isotope currently has syntax themes for the following programs
 |                                                          | Color       | HEX     | XTERM | RGB           |
 |----------------------------------------------------------|-------------|---------|-------|---------------|
 | ![#F44336](https://placehold.it/15/F44336/000000?text=+) | Red         | #F44336 | 203   | 244, 067, 054 |
-| ![#FF6090](https://placehold.it/15/E91E63/000000?text=+) | Pink        | #FF6090 | 204   | 233, 030, 099 |
+| ![#E91E63](https://placehold.it/15/E91E63/000000?text=+) | Pink        | #E91E63 | 204   | 233, 030, 099 |
 | ![#9C27B0](https://placehold.it/15/9C27B0/000000?text=+) | Purple      | #9C27B0 | 133   | 156, 039, 176 |
 | ![#673AB7](https://placehold.it/15/673AB7/000000?text=+) | Deep Purple | #673AB7 | 98    | 103, 058, 183 |
 | ![#3F51B5](https://placehold.it/15/3F51B5/000000?text=+) | Indigo      | #3F51B5 | 68    | 063, 081, 181 |
@@ -119,3 +120,17 @@ Isotope currently has syntax themes for the following programs
 | ![#FF8A50](https://placehold.it/15/C41C00/000000?text=+) | Deep Orange | #FF8A50 | 166   | 196, 028, 000 |
 | ![#4B2C20](https://placehold.it/15/4B2C20/000000?text=+) | Brown       | #4B2C20 | 59    | 075, 044, 032 |
 
+### Greys ###
+
+|                                                          | Color  | HEX     | XTERM | RGB           |
+|----------------------------------------------------------|--------|---------|-------|---------------|
+| ![#ECEFF1](https://placehold.it/15/ECEFF1/000000?text=+) | Grey 0 | #ECEFF1 | 231   | 236, 239, 241 |
+| ![#CFD8DC](https://placehold.it/15/CFD8DC/000000?text=+) | Grey 1 | #CFD8DC | 188   | 207, 216, 220 |
+| ![#B0BEC5](https://placehold.it/15/B0BEC5/000000?text=+) | Grey 2 | #B0BEC5 | 152   | 176, 190, 197 |
+| ![#90A4AE](https://placehold.it/15/90A4AE/000000?text=+) | Grey 3 | #90A4AE | 145   | 144, 164, 174 |
+| ![#78909C](https://placehold.it/15/78909C/000000?text=+) | Grey 4 | #78909C | 109   | 120, 144, 156 |
+| ![#607D8B](https://placehold.it/15/607D8B/000000?text=+) | Grey 5 | #607D8B | 103   | 096, 125, 139 |
+| ![#546E7A](https://placehold.it/15/546E7A/000000?text=+) | Grey 6 | #546E7A | 102   | 084, 110, 122 |
+| ![#455A64](https://placehold.it/15/455A64/000000?text=+) | Grey 7 | #455A64 | 66    | 069, 090, 100 |
+| ![#37474F](https://placehold.it/15/37474F/000000?text=+) | Grey 8 | #37474F | 60    | 055, 071, 079 |
+| ![#263238](https://placehold.it/15/263238/000000?text=+) | Grey 9 | #263238 | 59    | 038, 050, 056 |
