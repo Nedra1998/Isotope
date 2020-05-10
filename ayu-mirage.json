@@ -1,0 +1,26 @@
+{
+  "black": [
+    "#1f2430"
+  ],
+  "red": [
+    "#F28779"
+  ],
+  "green": [
+    "#BAE67E"
+  ],
+  "yellow": [
+    "#FFCC66"
+  ],
+  "blue": [
+    "#73D0FF"
+  ],
+  "magenta": [
+    "#D4BFFF"
+  ],
+  "cyan": [
+    "#5CCFE6"
+  ],
+  "white": [
+    "#CBCCC6"
+  ]
+}

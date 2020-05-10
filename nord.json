@@ -1,10 +1,32 @@
 {
-  "black": ["#4C566a", "#434c5e", "#3b4252", "#2e3440"],
-  "red": ["#bf616a"],
-  "green": ["#a3be8c"],
-  "yellow": ["#EBCB8B"],
-  "blue": ["#81A1C1"],
-  "magenta": ["#B48EAD"],
-  "cyan": ["#8fbcbb", "#88c0d0"],
-  "white": ["#ECEFF4", "#E5E9F0", "#D8DEE9"]
+  "black": [
+    "#2e3440",
+    "#3b4252",
+    "#434c5e",
+    "#4C566a"
+  ],
+  "red": [
+    "#bf616a"
+  ],
+  "green": [
+    "#a3be8c"
+  ],
+  "yellow": [
+    "#EBCB8B"
+  ],
+  "blue": [
+    "#81A1C1"
+  ],
+  "magenta": [
+    "#B48EAD"
+  ],
+  "cyan": [
+    "#8fbcbb",
+    "#88c0d0"
+  ],
+  "white": [
+    "#D8DEE9",
+    "#E5E9F0",
+    "#ECEFF4"
+  ]
 }

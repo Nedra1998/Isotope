@@ -4,13 +4,30 @@ import numpy as np
 from argparse import ArgumentParser
 
 from terminaltables import SingleTable
-from colormath.color_objects import sRGBColor, LabColor
+from colormath.color_objects import sRGBColor, LabColor, HSVColor, HSLColor, XYZColor
 from colormath.color_conversions import convert_color
 from colormath.color_diff import delta_e_cie2000
 
 DELTAE = "\u0394E*"
 SIGMA = "\u03c3"
 MU = "\u03BC"
+
+XTERM = []
+
+
+def fmtHex(str):
+    black = convert_color(sRGBColor(0, 0, 0), LabColor)
+    white = convert_color(sRGBColor(1, 1, 1), LabColor)
+    color = sRGBColor.new_from_rgb_hex(str)
+    lcolor = convert_color(color, LabColor)
+    if delta_e_cie2000(lcolor, white) > delta_e_cie2000(lcolor, black):
+        return "\033[48;2;{};{};{};38;2;255;255;255m{}\033[0m".format(
+            int(255 * color.rgb_r), int(255 * color.rgb_g),
+            int(255 * color.rgb_b), color.get_rgb_hex())
+    else:
+        return "\033[48;2;{};{};{};38;2;0;0;0m{}\033[0m".format(
+            int(255 * color.rgb_r), int(255 * color.rgb_g),
+            int(255 * color.rgb_b), color.get_rgb_hex())
 
 
 def preview(hex, end='\n'):
@@ -30,6 +47,12 @@ def preview(hex, end='\n'):
               end=end)
 
 
+def closestXTerm(color):
+    color = convert_color(color, LabColor)
+    des = [delta_e_cie2000(color, x['color']) for x in XTERM]
+    return XTERM[np.argmin(des)]
+
+
 def loadScheme(filePath):
     schemeRaw = {}
     with open(filePath) as file:
@@ -37,6 +60,20 @@ def loadScheme(filePath):
     scheme = {}
     for key, val in schemeRaw.items():
         scheme[key] = [sRGBColor.new_from_rgb_hex(x) for x in val]
+    global XTERM
+    with open('xterm.json') as file:
+        schemeRaw = json.load(file)
+    for entry in schemeRaw:
+        XTERM.append({
+            'id':
+            entry['colorId'],
+            'color':
+            convert_color(sRGBColor.new_from_rgb_hex(entry['hexString']),
+                          LabColor),
+            'name':
+            entry['name']
+        })
+
     return scheme
 
 
@@ -115,9 +152,18 @@ def stddes(colors):
 def contrast(a, b):
     a = convert_color(a, sRGBColor)
     b = convert_color(b, sRGBColor)
-    la = 0.2126 * a.rgb_r + 0.7152 * a.rgb_g + 0.0722 * a.rgb_b
-    lb = 0.2126 * b.rgb_r + 0.7152 * b.rgb_g + 0.0722 * b.rgb_b
-    return (la + 0.05) / (lb + 0.05)
+    ar = a.rgb_r / 12.92 if a.rgb_r <= 0.03928 else ((a.rgb_r + 0.055) / 1.055) ** 2.4
+    ag = a.rgb_g / 12.92 if a.rgb_g <= 0.03928 else ((a.rgb_g + 0.055) / 1.055) ** 2.4
+    ab = a.rgb_b / 12.92 if a.rgb_b <= 0.03928 else ((a.rgb_b + 0.055) / 1.055) ** 2.4
+    br = b.rgb_r / 12.92 if b.rgb_r <= 0.03928 else ((b.rgb_r + 0.055) / 1.055) ** 2.4
+    bg = b.rgb_g / 12.92 if b.rgb_g <= 0.03928 else ((b.rgb_g + 0.055) / 1.055) ** 2.4
+    bb = b.rgb_b / 12.92 if b.rgb_b <= 0.03928 else ((b.rgb_b + 0.055) / 1.055) ** 2.4
+    la = 0.2126 * ar + 0.7152 * ag + 0.0722 * ab
+    lb = 0.2126 * br + 0.7152 * bg + 0.0722 * bb
+    if lb < la:
+        return (la + 0.05) / (lb + 0.05)
+    else:
+        return (lb + 0.05) / (la + 0.05)
 
 
 def averageContrast(a, b):
@@ -134,6 +180,58 @@ def stdContrast(a, b):
         for cb in b:
             crs.append(contrast(ca, cb))
     return np.std(crs)
+
+
+def colorCodes(color):
+    rgb = convert_color(color, sRGBColor)
+    hsl = convert_color(color, HSLColor)
+    lab = convert_color(color, LabColor)
+    xcolor = closestXTerm(color)
+    return {
+        'hex': rgb.get_rgb_hex(),
+        'lab': lab,
+        'rgb': rgb,
+        'hsl': hsl,
+        'xhex': convert_color(xcolor['color'], sRGBColor).get_rgb_hex(),
+        'xid': xcolor['id'],
+        'xname': xcolor['name']
+    }
+
+
+def detail(scheme):
+    colors = []
+    for key, val in scheme.items():
+        colors += [convert_color(x, LabColor) for x in val]
+    for i, a in enumerate(colors):
+        print("{:7} L*A*B: {:6.3f} {:7.3f} {:7.3f}".format(
+            fmtHex(convert_color(a, sRGBColor).get_rgb_hex()), a.lab_l,
+            a.lab_a, a.lab_b))
+        for j, b in enumerate(colors):
+            if i == j:
+                continue
+            print(
+                "  {:7} L*A*B: {:6.3f} {:7.3f} {:7.3f}   {}: {: 7.3f}   {}: {: 7.3f}"
+                .format(fmtHex(convert_color(b, sRGBColor).get_rgb_hex()),
+                        b.lab_l, b.lab_a, b.lab_b, DELTAE,
+                        delta_e_cie2000(a, b), "C/R",
+                        contrast(a, b)))
+
+
+def detailTable(scheme):
+    colors = []
+    for key, val in scheme.items():
+        colors += val
+    print("\033[1m{:7}  {:20} {:3} {:7}   {:22}   {:20} {:21}\033[0m".format(
+        "HEX", "NAME", "ID", "XHEX", "L*A*B", "RGB", "HSL"))
+    for color in colors:
+        codes = colorCodes(color)
+        print(
+            "{:7}  {:20} {:3} {:7}  {: 6.3f} {: 7.3f} {: 7.3f}  {:6.3f} {:6.3f} {:6.3f}  {:7.3f} {:6.3f} {:6.3f}"
+            .format(fmtHex(codes['hex']), codes['xname'], codes['xid'],
+                    fmtHex(codes['xhex']), codes['lab'].lab_l,
+                    codes['lab'].lab_a, codes['lab'].lab_b, codes['rgb'].rgb_r,
+                    codes['rgb'].rgb_g, codes['rgb'].rgb_b, codes['hsl'].hsl_h,
+                    codes['hsl'].hsl_s, codes['hsl'].hsl_l))
 
 
 def summary(scheme):
@@ -212,10 +310,14 @@ def main():
                         '--summary',
                         action='store_true',
                         help='displays summary table')
+    parser.add_argument('-t',
+                        '--table',
+                        action='store_true',
+                        help='display detailed table for each color')
     parser.add_argument('-d',
                         '--detail',
                         action='store_true',
-                        help='display detailed report for each color')
+                        help='display detailed analysis for each color')
     args = parser.parse_args()
     print(args)
     schemeName = args.scheme
@@ -226,6 +328,10 @@ def main():
         for v in val:
             preview(v, end=' ')
         print()
+    if args.detail:
+        detail(scheme)
+    if args.table:
+        detailTable(scheme)
     if args.summary:
         summary(scheme)
 
