@@ -46,14 +46,14 @@ def closestXTerm(color):
 
 def colorCodes(color):
     rgb = convert_color(color, sRGBColor)
-    hsl = convert_color(color, HSLColor)
+    hsv = convert_color(color, HSVColor)
     lab = convert_color(color, LabColor)
     xcolor = closestXTerm(color)
     return {
         'hex': rgb.get_rgb_hex(),
         'lab': lab,
         'rgb': rgb,
-        'hsl': hsl,
+        'hsv': hsv,
         'xhex': convert_color(xcolor['color'], sRGBColor).get_rgb_hex(),
         'xid': xcolor['id'],
         'xname': xcolor['name']
@@ -62,7 +62,7 @@ def colorCodes(color):
 
 def detailTable(colors):
     print("\033[1m{:7}  {:20} {:3} {:7}   {:22}   {:20} {:21}\033[0m".format(
-        "HEX", "NAME", "ID", "XHEX", "L*A*B", "RGB", "HSL"))
+        "HEX", "NAME", "ID", "XHEX", "L*A*B", "RGB", "HSV"))
     for color in colors:
         codes = colorCodes(color)
         print(
@@ -70,8 +70,8 @@ def detailTable(colors):
             .format(fmtHex(codes['hex']), codes['xname'], codes['xid'],
                     fmtHex(codes['xhex']), codes['lab'].lab_l,
                     codes['lab'].lab_a, codes['lab'].lab_b, codes['rgb'].rgb_r,
-                    codes['rgb'].rgb_g, codes['rgb'].rgb_b, codes['hsl'].hsl_h,
-                    codes['hsl'].hsl_s, codes['hsl'].hsl_l))
+                    codes['rgb'].rgb_g, codes['rgb'].rgb_b, codes['hsv'].hsv_h,
+                    codes['hsv'].hsv_s, codes['hsv'].hsv_v))
 
 BASEA = convert_color(sRGBColor.new_from_rgb_hex("#263238"), LabColor)
 BASEB = convert_color(sRGBColor.new_from_rgb_hex("#eceff1"), LabColor)
@@ -85,6 +85,11 @@ monochrome = [
 detailTable(monochrome)
 avgMonL = np.mean([x.lab_l for x in monochrome])
 
-HUE_BASE = 0
+colors = []
+HUE_BASE = convert_color(sRGBColor.new_from_rgb_hex("#ff0000"), HSVColor)
 HUE_STEPS = [19, 28, 14, 76, 37, 61, 35]
-
+h = 0
+for step in HUE_STEPS:
+    colors.append(HSVColor(HUE_BASE.hsv_h + h, HUE_BASE.hsv_s, HUE_BASE.hsv_v))
+    h += step
+detailTable(colors)

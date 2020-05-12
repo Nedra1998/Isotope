@@ -7,22 +7,22 @@
     "#607d8b"
   ],
   "red": [
-    "#EF5350"
-  ],
-  "green": [
-    "#66BB6A"
+    "#FF745c"
   ],
   "yellow": [
-    "#FCD734"
+    "#FFE341"
   ],
-  "blue": [
-    "#42A5F5"
-  ],
-  "magenta": [
-    "#BA68C8"
+  "green": [
+    "#14C634"
   ],
   "cyan": [
-    "#00BCD4"
+    "#00C1BC"
+  ],
+  "blue": [
+    "#349DE0"
+  ],
+  "magenta": [
+    "#E066FF"
   ],
   "white": [
     "#78909c",

@@ -1,0 +1,54 @@
+{
+  "black": [
+    "#263238",
+    "#90a4ae"
+  ],
+  "red": [
+    "#e53935",
+    "#ff5370"
+  ],
+  "orange": [
+    "#f76d47",
+    "#f78c6c"
+  ],
+  "yellow": [
+    "#ffb62c",
+    "#ffcb6b"
+  ],
+  "green": [
+    "#91b859",
+    "#c3e88d"
+  ],
+  "cyan": [
+    "#39adb5",
+    "#89ddff"
+  ],
+  "blue": [
+    "#6182b8",
+    "#82aaff"
+  ],
+  "paleblue": [
+    "#8796b0",
+    "#b2ccd6"
+  ],
+  "purple": [
+    "#7c4dff",
+    "#c792ea"
+  ],
+  "brown": [
+    "#c17e70",
+    "#c17e70"
+  ],
+  "pink": [
+    "#ff5370",
+    "#f07178"
+  ],
+  "violet": [
+    "#945eb8",
+    "#bb80b3"
+  ],
+  "white": [
+    "#eeffff",
+    "#fafafa"
+  ]
+}

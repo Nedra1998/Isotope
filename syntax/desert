@@ -1,0 +1,1764 @@
+
+
+SpecialKey     xxx ctermfg=2 guifg=yellowgreen
+EndOfBuffer    xxx cleared
+TermCursor     xxx cterm=reverse gui=reverse
+TermCursorNC   xxx cleared
+NonText        xxx cterm=bold ctermfg=4 gui=bold guifg=LightBlue guibg=grey30
+Directory      xxx ctermfg=6 guifg=Cyan
+ErrorMsg       xxx cterm=bold ctermfg=7 ctermbg=1 guifg=White guibg=Red
+IncSearch      xxx ctermfg=11 ctermbg=10 gui=reverse guifg=slategrey guibg=khaki
+Search         xxx ctermfg=248 ctermbg=12 guifg=wheat guibg=peru
+MoreMsg        xxx ctermfg=2 gui=bold guifg=SeaGreen
+ModeMsg        xxx ctermfg=130 gui=bold guifg=goldenrod
+LineNr         xxx ctermfg=3 guifg=Yellow
+CursorLineNr   xxx ctermfg=11 gui=bold guifg=Yellow
+Question       xxx ctermfg=10 gui=bold guifg=springgreen
+StatusLine     xxx cterm=bold,reverse guifg=black guibg=#c2bfa5
+StatusLineNC   xxx cterm=reverse guifg=grey50 guibg=#c2bfa5
+VertSplit      xxx cterm=reverse guifg=grey50 guibg=#c2bfa5
+Title          xxx ctermfg=5 gui=bold guifg=indianred
+Visual         xxx cterm=reverse ctermbg=242 guifg=khaki guibg=olivedrab
+VisualNC       xxx cleared
+WarningMsg     xxx ctermfg=1 guifg=salmon
+WildMenu       xxx ctermfg=0 ctermbg=3 guifg=Black guibg=Yellow
+Folded         xxx ctermfg=242 guifg=gold guibg=grey30
+FoldColumn     xxx ctermfg=242 guifg=tan guibg=grey30
+DiffAdd        xxx ctermbg=4 guibg=DarkBlue
+DiffChange     xxx ctermbg=5 guibg=DarkMagenta
+DiffDelete     xxx cterm=bold ctermfg=4 ctermbg=6 gui=bold guifg=Blue guibg=DarkCyan
+DiffText       xxx cterm=bold ctermbg=1 gui=bold guibg=Red
+SignColumn     xxx ctermfg=14 ctermbg=242 guifg=Cyan guibg=Grey
+Conceal        xxx ctermfg=239 guifg=#504945
+SpellBad       xxx ctermbg=9 gui=undercurl guisp=Red
+SpellCap       xxx ctermbg=12 gui=undercurl guisp=Blue
+SpellRare      xxx ctermbg=13 gui=undercurl guisp=Magenta
+SpellLocal     xxx ctermbg=14 gui=undercurl guisp=Cyan
+Pmenu          xxx ctermfg=0 ctermbg=13 guibg=Magenta
+PmenuSel       xxx ctermfg=242 ctermbg=0 guibg=DarkGrey
+PmenuSbar      xxx ctermbg=248 guibg=Grey
+PmenuThumb     xxx ctermbg=15 guibg=White
+TabLine        xxx cterm=underline ctermfg=15 ctermbg=242 gui=underline guibg=DarkGrey
+TabLineSel     xxx cterm=bold gui=bold
+TabLineFill    xxx cterm=reverse gui=reverse
+CursorColumn   xxx ctermbg=242 guibg=Grey40
+CursorLine     xxx cterm=underline guibg=Grey40
+ColorColumn    xxx ctermbg=1 guibg=DarkRed
+QuickFixLine   xxx cleared
+Whitespace     xxx cleared
+NormalNC       xxx cleared
+MsgSeparator   xxx links to StatusLine
+NormalFloat    xxx links to Pmenu
+MsgArea        xxx cleared
+RedrawDebugNormal xxx cterm=reverse gui=reverse
+RedrawDebugClear xxx ctermbg=11 guibg=Yellow
+RedrawDebugComposed xxx ctermbg=10 guibg=Green
+RedrawDebugRecompose xxx ctermbg=9 guibg=Red
+Cursor         xxx guifg=slategrey guibg=khaki
+lCursor        xxx guifg=bg guibg=fg
+Substitute     xxx links to Search
+MatchParen     xxx ctermbg=6 guibg=DarkCyan
+Normal         xxx guifg=White guibg=grey20
+NvimInternalError xxx ctermfg=9 ctermbg=9 guifg=Red guibg=Red
+NvimAssignment xxx links to Operator
+Operator       xxx links to Statement
+NvimPlainAssignment xxx links to NvimAssignment
+NvimAugmentedAssignment xxx links to NvimAssignment
+NvimAssignmentWithAddition xxx links to NvimAugmentedAssignment
+NvimAssignmentWithSubtraction xxx links to NvimAugmentedAssignment
+NvimAssignmentWithConcatenation xxx links to NvimAugmentedAssignment
+NvimOperator   xxx links to Operator
+NvimUnaryOperator xxx links to NvimOperator
+NvimUnaryPlus  xxx links to NvimUnaryOperator
+NvimUnaryMinus xxx links to NvimUnaryOperator
+NvimNot        xxx links to NvimUnaryOperator
+NvimBinaryOperator xxx links to NvimOperator
+NvimComparison xxx links to NvimBinaryOperator
+NvimComparisonModifier xxx links to NvimComparison
+NvimBinaryPlus xxx links to NvimBinaryOperator
+NvimBinaryMinus xxx links to NvimBinaryOperator
+NvimConcat     xxx links to NvimBinaryOperator
+NvimConcatOrSubscript xxx links to NvimConcat
+NvimOr         xxx links to NvimBinaryOperator
+NvimAnd        xxx links to NvimBinaryOperator
+NvimMultiplication xxx links to NvimBinaryOperator
+NvimDivision   xxx links to NvimBinaryOperator
+NvimMod        xxx links to NvimBinaryOperator
+NvimTernary    xxx links to NvimOperator
+NvimTernaryColon xxx links to NvimTernary
+NvimParenthesis xxx links to Delimiter
+Delimiter      xxx links to Special
+NvimLambda     xxx links to NvimParenthesis
+NvimNestingParenthesis xxx links to NvimParenthesis
+NvimCallingParenthesis xxx links to NvimParenthesis
+NvimSubscript  xxx links to NvimParenthesis
+NvimSubscriptBracket xxx links to NvimSubscript
+NvimSubscriptColon xxx links to NvimSubscript
+NvimCurly      xxx links to NvimSubscript
+NvimContainer  xxx links to NvimParenthesis
+NvimDict       xxx links to NvimContainer
+NvimList       xxx links to NvimContainer
+NvimIdentifier xxx links to Identifier
+Identifier     xxx cterm=bold ctermfg=6 guifg=palegreen
+NvimIdentifierScope xxx links to NvimIdentifier
+NvimIdentifierScopeDelimiter xxx links to NvimIdentifier
+NvimIdentifierName xxx links to NvimIdentifier
+NvimIdentifierKey xxx links to NvimIdentifier
+NvimColon      xxx links to Delimiter
+NvimComma      xxx links to Delimiter
+NvimArrow      xxx links to Delimiter
+NvimRegister   xxx links to SpecialChar
+SpecialChar    xxx links to Special
+NvimNumber     xxx links to Number
+Number         xxx links to Constant
+NvimFloat      xxx links to NvimNumber
+NvimNumberPrefix xxx links to Type
+Type           xxx ctermfg=2 gui=bold guifg=darkkhaki
+NvimOptionSigil xxx links to Type
+NvimOptionName xxx links to NvimIdentifier
+NvimOptionScope xxx links to NvimIdentifierScope
+NvimOptionScopeDelimiter xxx links to NvimIdentifierScopeDelimiter
+NvimEnvironmentSigil xxx links to NvimOptionSigil
+NvimEnvironmentName xxx links to NvimIdentifier
+NvimString     xxx links to String
+String         xxx links to Constant
+NvimStringBody xxx links to NvimString
+NvimStringQuote xxx links to NvimString
+NvimStringSpecial xxx links to SpecialChar
+NvimSingleQuote xxx links to NvimStringQuote
+NvimSingleQuotedBody xxx links to NvimStringBody
+NvimSingleQuotedQuote xxx links to NvimStringSpecial
+NvimDoubleQuote xxx links to NvimStringQuote
+NvimDoubleQuotedBody xxx links to NvimStringBody
+NvimDoubleQuotedEscape xxx links to NvimStringSpecial
+NvimFigureBrace xxx links to NvimInternalError
+NvimSingleQuotedUnknownEscape xxx links to NvimInternalError
+NvimSpacing    xxx links to Normal
+NvimInvalidSingleQuotedUnknownEscape xxx links to NvimInternalError
+NvimInvalid    xxx links to Error
+Error          xxx cterm=bold ctermfg=7 ctermbg=1 guifg=White guibg=Red
+NvimInvalidAssignment xxx links to NvimInvalid
+NvimInvalidPlainAssignment xxx links to NvimInvalidAssignment
+NvimInvalidAugmentedAssignment xxx links to NvimInvalidAssignment
+NvimInvalidAssignmentWithAddition xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidAssignmentWithSubtraction xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidAssignmentWithConcatenation xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidOperator xxx links to NvimInvalid
+NvimInvalidUnaryOperator xxx links to NvimInvalidOperator
+NvimInvalidUnaryPlus xxx links to NvimInvalidUnaryOperator
+NvimInvalidUnaryMinus xxx links to NvimInvalidUnaryOperator
+NvimInvalidNot xxx links to NvimInvalidUnaryOperator
+NvimInvalidBinaryOperator xxx links to NvimInvalidOperator
+NvimInvalidComparison xxx links to NvimInvalidBinaryOperator
+NvimInvalidComparisonModifier xxx links to NvimInvalidComparison
+NvimInvalidBinaryPlus xxx links to NvimInvalidBinaryOperator
+NvimInvalidBinaryMinus xxx links to NvimInvalidBinaryOperator
+NvimInvalidConcat xxx links to NvimInvalidBinaryOperator
+NvimInvalidConcatOrSubscript xxx links to NvimInvalidConcat
+NvimInvalidOr  xxx links to NvimInvalidBinaryOperator
+NvimInvalidAnd xxx links to NvimInvalidBinaryOperator
+NvimInvalidMultiplication xxx links to NvimInvalidBinaryOperator
+NvimInvalidDivision xxx links to NvimInvalidBinaryOperator
+NvimInvalidMod xxx links to NvimInvalidBinaryOperator
+NvimInvalidTernary xxx links to NvimInvalidOperator
+NvimInvalidTernaryColon xxx links to NvimInvalidTernary
+NvimInvalidDelimiter xxx links to NvimInvalid
+NvimInvalidParenthesis xxx links to NvimInvalidDelimiter
+NvimInvalidLambda xxx links to NvimInvalidParenthesis
+NvimInvalidNestingParenthesis xxx links to NvimInvalidParenthesis
+NvimInvalidCallingParenthesis xxx links to NvimInvalidParenthesis
+NvimInvalidSubscript xxx links to NvimInvalidParenthesis
+NvimInvalidSubscriptBracket xxx links to NvimInvalidSubscript
+NvimInvalidSubscriptColon xxx links to NvimInvalidSubscript
+NvimInvalidCurly xxx links to NvimInvalidSubscript
+NvimInvalidContainer xxx links to NvimInvalidParenthesis
+NvimInvalidDict xxx links to NvimInvalidContainer
+NvimInvalidList xxx links to NvimInvalidContainer
+NvimInvalidValue xxx links to NvimInvalid
+NvimInvalidIdentifier xxx links to NvimInvalidValue
+NvimInvalidIdentifierScope xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierScopeDelimiter xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierName xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierKey xxx links to NvimInvalidIdentifier
+NvimInvalidColon xxx links to NvimInvalidDelimiter
+NvimInvalidComma xxx links to NvimInvalidDelimiter
+NvimInvalidArrow xxx links to NvimInvalidDelimiter
+NvimInvalidRegister xxx links to NvimInvalidValue
+NvimInvalidNumber xxx links to NvimInvalidValue
+NvimInvalidFloat xxx links to NvimInvalidNumber
+NvimInvalidNumberPrefix xxx links to NvimInvalidNumber
+NvimInvalidOptionSigil xxx links to NvimInvalidIdentifier
+NvimInvalidOptionName xxx links to NvimInvalidIdentifier
+NvimInvalidOptionScope xxx links to NvimInvalidIdentifierScope
+NvimInvalidOptionScopeDelimiter xxx links to NvimInvalidIdentifierScopeDelimiter
+NvimInvalidEnvironmentSigil xxx links to NvimInvalidOptionSigil
+NvimInvalidEnvironmentName xxx links to NvimInvalidIdentifier
+NvimInvalidString xxx links to NvimInvalidValue
+NvimInvalidStringBody xxx links to NvimStringBody
+NvimInvalidStringQuote xxx links to NvimInvalidString
+NvimInvalidStringSpecial xxx links to NvimStringSpecial
+NvimInvalidSingleQuote xxx links to NvimInvalidStringQuote
+NvimInvalidSingleQuotedBody xxx links to NvimInvalidStringBody
+NvimInvalidSingleQuotedQuote xxx links to NvimInvalidStringSpecial
+NvimInvalidDoubleQuote xxx links to NvimInvalidStringQuote
+NvimInvalidDoubleQuotedBody xxx links to NvimInvalidStringBody
+NvimInvalidDoubleQuotedEscape xxx links to NvimInvalidStringSpecial
+NvimInvalidDoubleQuotedUnknownEscape xxx links to NvimInvalidValue
+NvimInvalidFigureBrace xxx links to NvimInvalidDelimiter
+NvimInvalidSpacing xxx links to ErrorMsg
+NvimDoubleQuotedUnknownEscape xxx links to NvimInvalidValue
+Comment        xxx ctermfg=6 guifg=SkyBlue
+Constant       xxx ctermfg=130 guifg=#ffa0a0
+Special        xxx ctermfg=5 guifg=navajowhite
+Statement      xxx ctermfg=3 gui=bold guifg=khaki
+PreProc        xxx ctermfg=5 guifg=indianred
+Underlined     xxx cterm=underline ctermfg=5 gui=underline guifg=#80a0ff
+Ignore         xxx cterm=bold ctermfg=242 guifg=grey40
+Todo           xxx ctermfg=0 ctermbg=11 guifg=orangered guibg=yellow2
+Character      xxx links to Constant
+Boolean        xxx links to Constant
+Float          xxx links to Number
+Function       xxx links to Identifier
+Conditional    xxx links to Statement
+Repeat         xxx links to Statement
+Label          xxx links to Statement
+Keyword        xxx links to Statement
+Exception      xxx links to Statement
+Include        xxx links to PreProc
+Define         xxx links to PreProc
+Macro          xxx links to PreProc
+PreCondit      xxx links to PreProc
+StorageClass   xxx links to Type
+Structure      xxx links to Type
+Typedef        xxx links to Type
+Tag            xxx links to Special
+SpecialComment xxx links to Special
+Debug          xxx links to Special
+GruvboxFg0     xxx cleared
+GruvboxFg1     xxx cleared
+GruvboxFg2     xxx cleared
+GruvboxFg3     xxx cleared
+GruvboxFg4     xxx cleared
+GruvboxGray    xxx cleared
+GruvboxBg0     xxx cleared
+GruvboxBg1     xxx cleared
+GruvboxBg2     xxx cleared
+GruvboxBg3     xxx cleared
+GruvboxBg4     xxx cleared
+GruvboxRed     xxx cleared
+GruvboxRedBold xxx cleared
+GruvboxGreen   xxx cleared
+GruvboxGreenBold xxx cleared
+GruvboxYellow  xxx cleared
+GruvboxYellowBold xxx cleared
+GruvboxBlue    xxx cleared
+GruvboxBlueBold xxx cleared
+GruvboxPurple  xxx cleared
+GruvboxPurpleBold xxx cleared
+GruvboxAqua    xxx cleared
+GruvboxAquaBold xxx cleared
+GruvboxOrange  xxx cleared
+GruvboxOrangeBold xxx cleared
+GruvboxRedSign xxx cleared
+GruvboxGreenSign xxx cleared
+GruvboxYellowSign xxx cleared
+GruvboxBlueSign xxx cleared
+GruvboxPurpleSign xxx cleared
+GruvboxAquaSign xxx cleared
+GruvboxOrangeSign xxx cleared
+VisualNOS      xxx cleared
+vCursor        xxx links to Cursor
+iCursor        xxx cleared
+EasyMotionTarget xxx cleared
+EasyMotionShade xxx cleared
+Sneak          xxx links to Search
+SneakLabel     xxx links to Search
+IndentGuidesOdd xxx cleared
+IndentGuidesEven xxx cleared
+GitGutterAdd   xxx links to SignifySignAdd
+GitGutterChange xxx links to SignifySignChange
+GitGutterDelete xxx links to SignifySignDelete
+GitGutterChangeDelete xxx links to GruvboxAquaSign
+gitcommitSelectedFile xxx cleared
+gitcommitDiscardedFile xxx cleared
+SignifySignAdd xxx cleared
+SignifySignChange xxx cleared
+SignifySignDelete xxx cleared
+SyntasticError xxx cleared
+SyntasticWarning xxx cleared
+SyntasticErrorSign xxx links to GruvboxRedSign
+SyntasticWarningSign xxx links to GruvboxYellowSign
+SignatureMarkText xxx links to GruvboxBlueSign
+SignatureMarkerText xxx links to GruvboxPurpleSign
+ShowMarksHLl   xxx links to GruvboxBlueSign
+ShowMarksHLu   xxx links to GruvboxBlueSign
+ShowMarksHLo   xxx links to GruvboxBlueSign
+ShowMarksHLm   xxx links to GruvboxBlueSign
+CtrlPMatch     xxx links to GruvboxYellow
+CtrlPNoEntries xxx links to GruvboxRed
+CtrlPPrtBase   xxx links to GruvboxBg2
+CtrlPPrtCursor xxx links to GruvboxBlue
+CtrlPLinePre   xxx links to GruvboxBg2
+CtrlPMode1     xxx cleared
+CtrlPMode2     xxx cleared
+CtrlPStats     xxx cleared
+StartifyBracket xxx cleared
+StartifyFile   xxx cleared
+StartifyNumber xxx cleared
+StartifyPath   xxx cleared
+StartifySlash  xxx cleared
+StartifySection xxx cleared
+StartifySpecial xxx cleared
+StartifyHeader xxx cleared
+StartifyFooter xxx links to GruvboxBg2
+BufTabLineCurrent xxx cleared
+BufTabLineActive xxx cleared
+BufTabLineHidden xxx cleared
+BufTabLineFill xxx cleared
+ALEError       xxx cleared
+ALEWarning     xxx cleared
+ALEInfo        xxx cleared
+ALEErrorSign   xxx cleared
+ALEWarningSign xxx cleared
+ALEInfoSign    xxx links to GruvboxBlueSign
+DirvishPathTail xxx links to GruvboxAqua
+DirvishArg     xxx links to GruvboxYellow
+netrwDir       xxx cleared
+netrwClassify  xxx cleared
+netrwLink      xxx links to GruvboxGray
+netrwSymLink   xxx links to GruvboxFg1
+netrwExe       xxx cleared
+netrwComment   xxx links to GruvboxGray
+netrwList      xxx cleared
+netrwHelpCmd   xxx cleared
+netrwCmdSep    xxx links to GruvboxFg3
+netrwVersion   xxx cleared
+NERDTreeDir    xxx cleared
+NERDTreeDirSlash xxx cleared
+NERDTreeOpenable xxx cleared
+NERDTreeClosable xxx cleared
+NERDTreeFile   xxx cleared
+NERDTreeExecFile xxx cleared
+NERDTreeUp     xxx cleared
+NERDTreeCWD    xxx links to GruvboxGreen
+NERDTreeHelp   xxx cleared
+NERDTreeToggleOn xxx cleared
+NERDTreeToggleOff xxx cleared
+multiple_cursors_cursor xxx cleared
+multiple_cursors_visual xxx cleared
+CocErrorSign   xxx links to GruvboxRedSign
+CocWarningSign xxx links to GruvboxOrangeSign
+CocInfoSign    xxx links to GruvboxYellowSign
+CocHintSign    xxx links to GruvboxBlueSign
+CocErrorFloat  xxx links to GruvboxRed
+CocWarningFloat xxx links to GruvboxOrange
+CocInfoFloat   xxx links to GruvboxYellow
+CocHintFloat   xxx links to GruvboxBlue
+CocDiagnosticsError xxx links to GruvboxRed
+CocDiagnosticsWarning xxx links to GruvboxOrange
+CocDiagnosticsInfo xxx links to GruvboxYellow
+CocDiagnosticsHint xxx links to GruvboxBlue
+CocSelectedText xxx links to GruvboxRed
+CocCodeLens    xxx links to GruvboxGray
+CocErrorHighlight xxx cleared
+CocWarningHighlight xxx cleared
+CocInfoHighlight xxx cleared
+CocHintHighlight xxx cleared
+diffAdded      xxx cleared
+diffRemoved    xxx cleared
+diffChanged    xxx links to GruvboxAqua
+diffFile       xxx cleared
+diffNewFile    xxx cleared
+diffLine       xxx cleared
+htmlTag        xxx cleared
+htmlEndTag     xxx cleared
+htmlTagName    xxx cleared
+htmlArg        xxx cleared
+htmlScriptTag  xxx cleared
+htmlTagN       xxx cleared
+htmlSpecialTagName xxx cleared
+htmlLink       xxx cleared
+htmlSpecialChar xxx cleared
+htmlBold       xxx cleared
+htmlBoldUnderline xxx cleared
+htmlBoldItalic xxx cleared
+htmlBoldUnderlineItalic xxx cleared
+htmlUnderline  xxx cleared
+htmlUnderlineItalic xxx cleared
+htmlItalic     xxx cleared
+xmlTag         xxx cleared
+xmlEndTag      xxx cleared
+xmlTagName     xxx cleared
+xmlEqual       xxx cleared
+docbkKeyword   xxx links to GruvboxAquaBold
+xmlDocTypeDecl xxx links to GruvboxGray
+xmlDocTypeKeyword xxx links to GruvboxPurple
+xmlCdataStart  xxx links to GruvboxGray
+xmlCdataCdata  xxx links to GruvboxPurple
+dtdFunction    xxx links to GruvboxGray
+dtdTagName     xxx links to GruvboxPurple
+xmlAttrib      xxx cleared
+xmlProcessingDelim xxx cleared
+dtdParamEntityPunct xxx links to GruvboxGray
+dtdParamEntityDPunct xxx links to GruvboxGray
+xmlAttribPunct xxx cleared
+xmlEntity      xxx links to GruvboxOrange
+xmlEntityPunct xxx links to GruvboxOrange
+vimCommentTitle xxx cleared
+vimNotation    xxx cleared
+vimBracket     xxx cleared
+vimMapModKey   xxx cleared
+vimFuncSID     xxx links to GruvboxFg3
+vimSetSep      xxx links to GruvboxFg3
+vimSep         xxx cleared
+vimContinue    xxx cleared
+clojureKeyword xxx cleared
+clojureCond    xxx cleared
+clojureSpecial xxx cleared
+clojureDefine  xxx cleared
+clojureFunc    xxx cleared
+clojureRepeat  xxx cleared
+clojureCharacter xxx cleared
+clojureStringEscape xxx links to GruvboxAqua
+clojureException xxx cleared
+clojureRegexp  xxx cleared
+clojureRegexpEscape xxx cleared
+clojureRegexpCharClass xxx cleared
+clojureRegexpMod xxx links to clojureRegexpCharClass
+clojureRegexpQuantifier xxx links to clojureRegexpCharClass
+clojureParen   xxx cleared
+clojureAnonArg xxx cleared
+clojureVariable xxx cleared
+clojureMacro   xxx cleared
+clojureMeta    xxx cleared
+clojureDeref   xxx cleared
+clojureQuote   xxx cleared
+clojureUnquote xxx cleared
+cOperator      xxx cleared
+cStructure     xxx cleared
+pythonBuiltin  xxx cleared
+pythonBuiltinObj xxx cleared
+pythonBuiltinFunc xxx cleared
+pythonFunction xxx cleared
+pythonDecorator xxx cleared
+pythonInclude  xxx cleared
+pythonImport   xxx cleared
+pythonRun      xxx links to GruvboxBlue
+pythonCoding   xxx links to GruvboxBlue
+pythonOperator xxx cleared
+pythonException xxx cleared
+pythonExceptions xxx cleared
+pythonBoolean  xxx cleared
+pythonDot      xxx links to GruvboxFg3
+pythonConditional xxx cleared
+pythonRepeat   xxx cleared
+pythonDottedName xxx cleared
+cssBraces      xxx cleared
+cssFunctionName xxx cleared
+cssIdentifier  xxx cleared
+cssClassName   xxx cleared
+cssColor       xxx cleared
+cssSelectorOp  xxx cleared
+cssSelectorOp2 xxx cleared
+cssImportant   xxx cleared
+cssVendor      xxx links to GruvboxFg1
+cssTextProp    xxx cleared
+cssAnimationProp xxx links to GruvboxAqua
+cssUIProp      xxx links to GruvboxYellow
+cssTransformProp xxx links to GruvboxAqua
+cssTransitionProp xxx links to GruvboxAqua
+cssPrintProp   xxx links to GruvboxAqua
+cssPositioningProp xxx cleared
+cssBoxProp     xxx cleared
+cssFontDescriptorProp xxx links to GruvboxAqua
+cssFlexibleBoxProp xxx links to GruvboxAqua
+cssBorderOutlineProp xxx links to GruvboxAqua
+cssBackgroundProp xxx cleared
+cssMarginProp  xxx links to GruvboxAqua
+cssListProp    xxx links to GruvboxAqua
+cssTableProp   xxx links to GruvboxAqua
+cssFontProp    xxx links to GruvboxAqua
+cssPaddingProp xxx links to GruvboxAqua
+cssDimensionProp xxx cleared
+cssRenderProp  xxx links to GruvboxAqua
+cssColorProp   xxx links to GruvboxAqua
+cssGeneratedContentProp xxx links to GruvboxAqua
+javaScriptBraces xxx cleared
+javaScriptFunction xxx cleared
+javaScriptIdentifier xxx cleared
+javaScriptMember xxx cleared
+javaScriptNumber xxx cleared
+javaScriptNull xxx cleared
+javaScriptParens xxx cleared
+javascriptImport xxx cleared
+javascriptExport xxx cleared
+javascriptClassKeyword xxx cleared
+javascriptClassExtends xxx cleared
+javascriptDefault xxx links to GruvboxAqua
+javascriptClassName xxx links to GruvboxYellow
+javascriptClassSuperName xxx links to GruvboxYellow
+javascriptGlobal xxx cleared
+javascriptEndColons xxx cleared
+javascriptFuncArg xxx cleared
+javascriptGlobalMethod xxx links to GruvboxFg1
+javascriptNodeGlobal xxx links to GruvboxFg1
+javascriptBOMWindowProp xxx links to GruvboxFg1
+javascriptArrayMethod xxx links to GruvboxFg1
+javascriptArrayStaticMethod xxx links to GruvboxFg1
+javascriptCacheMethod xxx links to GruvboxFg1
+javascriptDateMethod xxx links to GruvboxFg1
+javascriptMathStaticMethod xxx links to GruvboxFg1
+javascriptURLUtilsProp xxx links to GruvboxFg1
+javascriptBOMNavigatorProp xxx links to GruvboxFg1
+javascriptDOMDocMethod xxx links to GruvboxFg1
+javascriptDOMDocProp xxx links to GruvboxFg1
+javascriptBOMLocationMethod xxx links to GruvboxFg1
+javascriptBOMWindowMethod xxx links to GruvboxFg1
+javascriptStringMethod xxx links to GruvboxFg1
+javascriptVariable xxx cleared
+javascriptClassSuper xxx links to GruvboxOrange
+javascriptFuncKeyword xxx cleared
+javascriptAsyncFunc xxx links to GruvboxAqua
+javascriptClassStatic xxx links to GruvboxOrange
+javascriptOperator xxx links to GruvboxRed
+javascriptForOperator xxx links to GruvboxRed
+javascriptYield xxx links to GruvboxRed
+javascriptExceptions xxx links to GruvboxRed
+javascriptMessage xxx cleared
+javascriptTemplateSB xxx cleared
+javascriptTemplateSubstitution xxx links to GruvboxFg1
+javascriptLabel xxx links to GruvboxFg1
+javascriptObjectLabel xxx cleared
+javascriptPropertyName xxx cleared
+javascriptLogicSymbols xxx links to GruvboxFg1
+javascriptArrowFunc xxx cleared
+javascriptDocParamName xxx cleared
+javascriptDocTags xxx cleared
+javascriptDocNotation xxx cleared
+javascriptDocParamType xxx links to GruvboxFg4
+javascriptDocNamedParamType xxx links to GruvboxFg4
+javascriptBrackets xxx links to GruvboxFg1
+javascriptDOMElemAttrs xxx links to GruvboxFg1
+javascriptDOMEventMethod xxx links to GruvboxFg1
+javascriptDOMNodeMethod xxx links to GruvboxFg1
+javascriptDOMStorageMethod xxx links to GruvboxFg1
+javascriptHeadersMethod xxx links to GruvboxFg1
+javascriptAsyncFuncKeyword xxx links to GruvboxRed
+javascriptAwaitFuncKeyword xxx links to GruvboxRed
+jsClassKeyword xxx cleared
+jsExtendsKeyword xxx cleared
+jsExportDefault xxx cleared
+jsTemplateBraces xxx cleared
+jsGlobalNodeObjects xxx links to GruvboxFg1
+jsGlobalObjects xxx cleared
+jsFunction     xxx cleared
+jsFuncParens   xxx cleared
+jsParens       xxx cleared
+jsNull         xxx cleared
+jsUndefined    xxx cleared
+jsClassDefinition xxx links to GruvboxYellow
+typeScriptReserved xxx cleared
+typeScriptLabel xxx links to GruvboxAqua
+typeScriptFuncKeyword xxx links to GruvboxAqua
+typeScriptIdentifier xxx links to GruvboxOrange
+typeScriptBraces xxx cleared
+typeScriptEndColons xxx cleared
+typeScriptDOMObjects xxx links to GruvboxFg1
+typeScriptAjaxMethods xxx links to GruvboxFg1
+typeScriptLogicSymbols xxx links to GruvboxFg1
+typeScriptDocSeeTag xxx links to Comment
+typeScriptDocParam xxx links to Comment
+typeScriptDocTags xxx links to vimCommentTitle
+typeScriptGlobalObjects xxx links to GruvboxFg1
+typeScriptParens xxx links to GruvboxFg3
+typeScriptOpSymbols xxx links to GruvboxFg3
+typeScriptHtmlElemProperties xxx links to GruvboxFg1
+typeScriptNull xxx links to GruvboxPurple
+typeScriptInterpolationDelimiter xxx links to GruvboxAqua
+purescriptModuleKeyword xxx cleared
+purescriptModuleName xxx cleared
+purescriptWhere xxx cleared
+purescriptDelimiter xxx cleared
+purescriptType xxx cleared
+purescriptImportKeyword xxx cleared
+purescriptHidingKeyword xxx links to GruvboxAqua
+purescriptAsKeyword xxx links to GruvboxAqua
+purescriptStructure xxx cleared
+purescriptOperator xxx cleared
+purescriptTypeVar xxx cleared
+purescriptConstructor xxx cleared
+purescriptFunction xxx cleared
+purescriptConditional xxx links to GruvboxOrange
+purescriptBacktick xxx links to GruvboxOrange
+coffeeExtendedOp xxx links to GruvboxFg3
+coffeeSpecialOp xxx links to GruvboxFg3
+coffeeCurly    xxx links to GruvboxOrange
+coffeeParen    xxx links to GruvboxFg3
+coffeeBracket  xxx links to GruvboxOrange
+rubyStringDelimiter xxx cleared
+rubyInterpolationDelimiter xxx cleared
+objcTypeModifier xxx links to GruvboxRed
+objcDirective  xxx links to GruvboxBlue
+goDirective    xxx cleared
+goConstants    xxx cleared
+goDeclaration  xxx cleared
+goDeclType     xxx cleared
+goBuiltins     xxx cleared
+luaIn          xxx cleared
+luaFunction    xxx cleared
+luaTable       xxx cleared
+moonSpecialOp  xxx links to GruvboxFg3
+moonExtendedOp xxx links to GruvboxFg3
+moonFunction   xxx links to GruvboxFg3
+moonObject     xxx links to GruvboxYellow
+javaAnnotation xxx cleared
+javaDocTags    xxx cleared
+javaCommentTitle xxx cleared
+javaParen      xxx links to GruvboxFg3
+javaParen1     xxx links to GruvboxFg3
+javaParen2     xxx links to GruvboxFg3
+javaParen3     xxx links to GruvboxFg3
+javaParen4     xxx links to GruvboxFg3
+javaParen5     xxx links to GruvboxFg3
+javaOperator   xxx links to GruvboxOrange
+javaVarArg     xxx links to GruvboxGreen
+elixirDocString xxx cleared
+elixirStringDelimiter xxx cleared
+elixirInterpolationDelimiter xxx links to GruvboxAqua
+elixirModuleDeclaration xxx cleared
+scalaNameDefinition xxx links to GruvboxFg1
+scalaCaseFollowing xxx links to GruvboxFg1
+scalaCapitalWord xxx links to GruvboxFg1
+scalaTypeExtension xxx links to GruvboxFg1
+scalaKeyword   xxx links to GruvboxRed
+scalaKeywordModifier xxx links to GruvboxRed
+scalaSpecial   xxx links to GruvboxAqua
+scalaOperator  xxx links to GruvboxFg1
+scalaTypeDeclaration xxx links to GruvboxYellow
+scalaTypeTypePostDeclaration xxx links to GruvboxYellow
+scalaInstanceDeclaration xxx links to GruvboxFg1
+scalaInterpolation xxx links to GruvboxAqua
+markdownItalic xxx cleared
+markdownH1     xxx cleared
+markdownH2     xxx cleared
+markdownH3     xxx cleared
+markdownH4     xxx cleared
+markdownH5     xxx cleared
+markdownH6     xxx cleared
+markdownCode   xxx cleared
+markdownCodeBlock xxx cleared
+markdownCodeDelimiter xxx cleared
+markdownBlockquote xxx cleared
+markdownListMarker xxx cleared
+markdownOrderedListMarker xxx cleared
+markdownRule   xxx cleared
+markdownHeadingRule xxx cleared
+markdownUrlDelimiter xxx links to GruvboxFg3
+markdownLinkDelimiter xxx cleared
+markdownLinkTextDelimiter xxx cleared
+markdownHeadingDelimiter xxx cleared
+markdownUrl    xxx cleared
+markdownUrlTitleDelimiter xxx links to GruvboxGreen
+markdownLinkText xxx cleared
+markdownIdDeclaration xxx cleared
+haskellType    xxx cleared
+haskellIdentifier xxx cleared
+haskellSeparator xxx links to GruvboxFg1
+haskellDelimiter xxx cleared
+haskellOperators xxx cleared
+haskellBacktick xxx links to GruvboxOrange
+haskellStatement xxx cleared
+haskellConditional xxx links to GruvboxOrange
+haskellLet     xxx links to GruvboxAqua
+haskellDefault xxx links to GruvboxAqua
+haskellWhere   xxx cleared
+haskellBottom  xxx links to GruvboxAqua
+haskellBlockKeywords xxx links to GruvboxAqua
+haskellImportKeywords xxx cleared
+haskellDeclKeyword xxx cleared
+haskellDeriving xxx links to GruvboxAqua
+haskellAssocType xxx links to GruvboxAqua
+haskellNumber  xxx cleared
+haskellPragma  xxx links to GruvboxPurple
+haskellString  xxx cleared
+haskellChar    xxx links to GruvboxGreen
+jsonKeyword    xxx cleared
+jsonQuote      xxx cleared
+jsonBraces     xxx cleared
+jsonString     xxx cleared
+CocUnderline   xxx cleared
+CocListMode    xxx links to ModeMsg
+CocListPath    xxx links to Comment
+CocHighlightText xxx links to CursorColumn
+CocFloating    xxx links to NormalFloat
+CocHoverRange  xxx links to Search
+CocCursorRange xxx links to Search
+CocHighlightRead xxx links to CocHighlightText
+CocHighlightWrite xxx links to CocHighlightText
+CocListBlackBlack xxx cleared
+CocListBlackBlue xxx cleared
+CocListBlackGreen xxx cleared
+CocListBlackGrey xxx cleared
+CocListBlackWhite xxx cleared
+CocListBlackCyan xxx cleared
+CocListBlackYellow xxx cleared
+CocListBlackMagenta xxx cleared
+CocListBlackRed xxx cleared
+CocListFgBlack xxx cleared
+CocListBgBlack xxx cleared
+CocListBlueBlack xxx cleared
+CocListBlueBlue xxx cleared
+CocListBlueGreen xxx cleared
+CocListBlueGrey xxx cleared
+CocListBlueWhite xxx cleared
+CocListBlueCyan xxx cleared
+CocListBlueYellow xxx cleared
+CocListBlueMagenta xxx cleared
+CocListBlueRed xxx cleared
+CocListFgBlue  xxx cleared
+CocListBgBlue  xxx cleared
+CocListGreenBlack xxx cleared
+CocListGreenBlue xxx cleared
+CocListGreenGreen xxx cleared
+CocListGreenGrey xxx cleared
+CocListGreenWhite xxx cleared
+CocListGreenCyan xxx cleared
+CocListGreenYellow xxx cleared
+CocListGreenMagenta xxx cleared
+CocListGreenRed xxx cleared
+CocListFgGreen xxx cleared
+CocListBgGreen xxx cleared
+CocListGreyBlack xxx cleared
+CocListGreyBlue xxx cleared
+CocListGreyGreen xxx cleared
+CocListGreyGrey xxx cleared
+CocListGreyWhite xxx cleared
+CocListGreyCyan xxx cleared
+CocListGreyYellow xxx cleared
+CocListGreyMagenta xxx cleared
+CocListGreyRed xxx cleared
+CocListFgGrey  xxx cleared
+CocListBgGrey  xxx cleared
+CocListWhiteBlack xxx cleared
+CocListWhiteBlue xxx cleared
+CocListWhiteGreen xxx cleared
+CocListWhiteGrey xxx cleared
+CocListWhiteWhite xxx cleared
+CocListWhiteCyan xxx cleared
+CocListWhiteYellow xxx cleared
+CocListWhiteMagenta xxx cleared
+CocListWhiteRed xxx cleared
+CocListFgWhite xxx cleared
+CocListBgWhite xxx cleared
+CocListCyanBlack xxx cleared
+CocListCyanBlue xxx cleared
+CocListCyanGreen xxx cleared
+CocListCyanGrey xxx cleared
+CocListCyanWhite xxx cleared
+CocListCyanCyan xxx cleared
+CocListCyanYellow xxx cleared
+CocListCyanMagenta xxx cleared
+CocListCyanRed xxx cleared
+CocListFgCyan  xxx cleared
+CocListBgCyan  xxx cleared
+CocListYellowBlack xxx cleared
+CocListYellowBlue xxx cleared
+CocListYellowGreen xxx cleared
+CocListYellowGrey xxx cleared
+CocListYellowWhite xxx cleared
+CocListYellowCyan xxx cleared
+CocListYellowYellow xxx cleared
+CocListYellowMagenta xxx cleared
+CocListYellowRed xxx cleared
+CocListFgYellow xxx cleared
+CocListBgYellow xxx cleared
+CocListMagentaBlack xxx cleared
+CocListMagentaBlue xxx cleared
+CocListMagentaGreen xxx cleared
+CocListMagentaGrey xxx cleared
+CocListMagentaWhite xxx cleared
+CocListMagentaCyan xxx cleared
+CocListMagentaYellow xxx cleared
+CocListMagentaMagenta xxx cleared
+CocListMagentaRed xxx cleared
+CocListFgMagenta xxx cleared
+CocListBgMagenta xxx cleared
+CocListRedBlack xxx cleared
+CocListRedBlue xxx cleared
+CocListRedGreen xxx cleared
+CocListRedGrey xxx cleared
+CocListRedWhite xxx cleared
+CocListRedCyan xxx cleared
+CocListRedYellow xxx cleared
+CocListRedMagenta xxx cleared
+CocListRedRed  xxx cleared
+CocListFgRed   xxx cleared
+CocListBgRed   xxx cleared
+semshiLocal    xxx cleared
+semshiGlobal   xxx cleared
+semshiImported xxx cleared
+semshiParameter xxx cleared
+semshiParameterUnused xxx cleared
+semshiFree     xxx cleared
+semshiBuiltin  xxx cleared
+semshiAttribute xxx cleared
+semshiSelf     xxx cleared
+semshiUnresolved xxx cleared
+semshiSelected xxx cleared
+semshiErrorSign xxx cleared
+semshiErrorChar xxx cleared
+pythonAttribute xxx cleared
+pythonDecoratorName xxx cleared
+airline_x_inactive xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_x_inactive_bold xxx cterm=bold ctermfg=240 ctermbg=254 gui=bold guifg=#585858 guibg=#e4e4e4
+airline_x_inactive_red xxx ctermfg=81 ctermbg=254 guifg=#66d9ef guibg=#e4e4e4
+airline_y_inactive xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_y_inactive_bold xxx cterm=bold ctermfg=240 ctermbg=254 gui=bold guifg=#585858 guibg=#e4e4e4
+airline_y_inactive_red xxx ctermfg=81 ctermbg=254 guifg=#66d9ef guibg=#e4e4e4
+airline_z_inactive xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_z_inactive_bold xxx cterm=bold ctermfg=240 ctermbg=254 gui=bold guifg=#585858 guibg=#e4e4e4
+airline_z_inactive_red xxx ctermfg=81 ctermbg=254 guifg=#66d9ef guibg=#e4e4e4
+airline_term_inactive xxx ctermfg=85 ctermbg=232 guifg=#9cffd3 guibg=#202020
+airline_term_inactive_bold xxx cterm=bold ctermfg=85 ctermbg=232 gui=bold guifg=#9cffd3 guibg=#202020
+airline_term_inactive_red xxx ctermfg=81 ctermbg=232 guifg=#66d9ef guibg=#202020
+airline_error_inactive xxx ctermfg=232 ctermbg=160 guifg=#000000 guibg=#990000
+airline_error_inactive_bold xxx cterm=bold ctermfg=232 ctermbg=160 gui=bold guifg=#000000 guibg=#990000
+airline_error_inactive_red xxx ctermfg=81 ctermbg=160 guifg=#66d9ef guibg=#990000
+airline_a_inactive xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_a_inactive_bold xxx cterm=bold ctermfg=240 ctermbg=254 gui=bold guifg=#585858 guibg=#e4e4e4
+airline_a_inactive_red xxx ctermfg=81 ctermbg=254 guifg=#66d9ef guibg=#e4e4e4
+airline_b_inactive xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_b_inactive_bold xxx cterm=bold ctermfg=240 ctermbg=254 gui=bold guifg=#585858 guibg=#e4e4e4
+airline_b_inactive_red xxx ctermfg=81 ctermbg=254 guifg=#66d9ef guibg=#e4e4e4
+airline_c_inactive xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_c_inactive_bold xxx cterm=bold ctermfg=240 ctermbg=254 gui=bold guifg=#585858 guibg=#e4e4e4
+airline_c_inactive_red xxx ctermfg=81 ctermbg=254 guifg=#66d9ef guibg=#e4e4e4
+airline_warning_inactive xxx ctermfg=232 ctermbg=166 guifg=#000000 guibg=#df5f00
+airline_warning_inactive_bold xxx cterm=bold ctermfg=232 ctermbg=166 gui=bold guifg=#000000 guibg=#df5f00
+airline_warning_inactive_red xxx ctermfg=81 ctermbg=166 guifg=#66d9ef guibg=#df5f00
+airline_x      xxx ctermfg=255 ctermbg=24 guifg=#eeeeee guibg=#005f87
+airline_x_bold xxx cterm=bold ctermfg=255 ctermbg=24 gui=bold guifg=#eeeeee guibg=#005f87
+airline_x_red  xxx ctermfg=81 ctermbg=24 guifg=#66d9ef guibg=#005f87
+airline_y      xxx ctermfg=254 ctermbg=31 guifg=#e4e4e4 guibg=#0087af
+airline_y_bold xxx cterm=bold ctermfg=254 ctermbg=31 gui=bold guifg=#e4e4e4 guibg=#0087af
+airline_y_red  xxx ctermfg=81 ctermbg=31 guifg=#66d9ef guibg=#0087af
+airline_z      xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_z_bold xxx cterm=bold ctermfg=240 ctermbg=254 gui=bold guifg=#585858 guibg=#e4e4e4
+airline_z_red  xxx ctermfg=81 ctermbg=254 guifg=#66d9ef guibg=#e4e4e4
+airline_term   xxx ctermfg=85 ctermbg=232 guifg=#9cffd3 guibg=#202020
+airline_term_bold xxx cterm=bold ctermfg=85 ctermbg=232 gui=bold guifg=#9cffd3 guibg=#202020
+airline_term_red xxx ctermfg=81 ctermbg=232 guifg=#66d9ef guibg=#202020
+airline_error  xxx ctermfg=232 ctermbg=160 guifg=#000000 guibg=#990000
+airline_error_bold xxx cterm=bold ctermfg=232 ctermbg=160 gui=bold guifg=#000000 guibg=#990000
+airline_error_red xxx ctermfg=81 ctermbg=160 guifg=#66d9ef guibg=#990000
+airline_a      xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_a_bold xxx cterm=bold ctermfg=240 ctermbg=254 gui=bold guifg=#585858 guibg=#e4e4e4
+airline_a_red  xxx ctermfg=81 ctermbg=254 guifg=#66d9ef guibg=#e4e4e4
+airline_b      xxx ctermfg=254 ctermbg=31 guifg=#e4e4e4 guibg=#0087af
+airline_b_bold xxx cterm=bold ctermfg=254 ctermbg=31 gui=bold guifg=#e4e4e4 guibg=#0087af
+airline_b_red  xxx ctermfg=81 ctermbg=31 guifg=#66d9ef guibg=#0087af
+airline_c      xxx ctermfg=255 ctermbg=24 guifg=#eeeeee guibg=#005f87
+airline_c_bold xxx cterm=bold ctermfg=255 ctermbg=24 gui=bold guifg=#eeeeee guibg=#005f87
+airline_c_red  xxx ctermfg=81 ctermbg=24 guifg=#66d9ef guibg=#005f87
+airline_warning xxx ctermfg=232 ctermbg=166 guifg=#000000 guibg=#df5f00
+airline_warning_bold xxx cterm=bold ctermfg=232 ctermbg=166 gui=bold guifg=#000000 guibg=#df5f00
+airline_warning_red xxx ctermfg=81 ctermbg=166 guifg=#66d9ef guibg=#df5f00
+airline_tablabel xxx ctermfg=254 ctermbg=31 guifg=#e4e4e4 guibg=#0087af
+airline_tab    xxx ctermfg=254 ctermbg=31 guifg=#e4e4e4 guibg=#0087af
+airline_tabsel xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_tabtype xxx ctermfg=24 ctermbg=254 guifg=#005f87 guibg=#e4e4e4
+airline_tabfill xxx ctermfg=255 ctermbg=24 guifg=#eeeeee guibg=#005f87
+airline_tabmod xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_tabmod_unsel xxx ctermfg=255 ctermbg=24 guifg=#eeeeee guibg=#005f87
+airline_tabhid xxx ctermfg=255 ctermbg=24 guifg=#eeeeee guibg=#005f87
+airline_tablabel_right xxx ctermfg=254 ctermbg=31 guifg=#e4e4e4 guibg=#0087af
+airline_tab_right xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_tabsel_right xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_tabmod_right xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
+airline_tabhid_right xxx ctermfg=255 ctermbg=24 guifg=#eeeeee guibg=#005f87
+airline_tabmod_unsel_right xxx ctermfg=255 ctermbg=24 guifg=#eeeeee guibg=#005f87
+airline_a_to_airline_b xxx guifg=#e4e4e4 guibg=#0087af
+airline_b_to_airline_c xxx guifg=#0087af guibg=#005f87
+airline_c_to_airline_x xxx guifg=#005f87 guibg=#005f87
+airline_x_to_airline_y xxx guifg=#0087af guibg=#005f87
+airline_y_to_airline_z xxx guifg=#e4e4e4 guibg=#0087af
+airline_z_to_airline_warning xxx guifg=#df5f00 guibg=#e4e4e4
+airline_warning_to_airline_error xxx guifg=#990000 guibg=#df5f00
+airline_c1_inactive xxx cleared
+airline_x_to_airline_y_inactive xxx guifg=#e4e4e4 guibg=#e4e4e4
+airline_z_to_airline_warning_inactive xxx guifg=#df5f00 guibg=#e4e4e4
+airline_c_to_airline_x_inactive xxx guifg=#e4e4e4 guibg=#e4e4e4
+airline_a_to_airline_b_inactive xxx guifg=#e4e4e4 guibg=#e4e4e4
+airline_warning_to_airline_error_inactive xxx guifg=#990000 guibg=#df5f00
+airline_y_to_airline_z_inactive xxx guifg=#e4e4e4 guibg=#e4e4e4
+airline_b_to_airline_c_inactive xxx guifg=#e4e4e4 guibg=#e4e4e4
+StartifySelect xxx links to Title
+StartifyVar    xxx links to StartifyPath
+LspCxxHlSkippedRegion xxx links to Comment
+LspCxxHlSkippedRegionBeginEnd xxx links to Normal
+LspCxxHlGroupEnumConstant xxx ctermfg=13 guifg=#AD7FA8
+LspCxxHlGroupNamespace xxx ctermfg=11 guifg=#BBBB00
+LspCxxHlGroupMemberVariable xxx ctermfg=15 guifg=White
+LspCxxHlSymUnknown xxx links to Normal
+LspCxxHlSymClass xxx links to Type
+LspCxxHlSymStruct xxx links to Type
+LspCxxHlSymEnum xxx links to Type
+LspCxxHlSymTypeAlias xxx links to Type
+LspCxxHlSymTypeParameter xxx links to Type
+LspCxxHlSymFunction xxx links to Function
+LspCxxHlSymMethod xxx links to Function
+LspCxxHlSymStaticMethod xxx links to Function
+LspCxxHlSymConstructor xxx links to Function
+LspCxxHlSymEnumMember xxx links to LspCxxHlGroupEnumConstant
+LspCxxHlSymMacro xxx links to Macro
+LspCxxHlSymNamespace xxx links to LspCxxHlGroupNamespace
+LspCxxHlSymVariable xxx links to Normal
+LspCxxHlSymParameter xxx links to Normal
+LspCxxHlSymField xxx links to LspCxxHlGroupMemberVariable
+LspCxxHlSymUnknownStaticField xxx links to Normal
+LspCxxHlSymPrimitive xxx links to Type
+LspCxxHlSymTypedef xxx links to Type
+LspCxxHlSymTemplateParameter xxx links to Type
+LspCxxHlSymEnumConstant xxx links to LspCxxHlGroupEnumConstant
+LspCxxHlSymDependentType xxx links to Type
+LspCxxHlSymDependentName xxx links to Function
+LspCxxHlSymConcept xxx links to Type
+airline_tabfill_to_airline_tabfill xxx guifg=#005f87 guibg=#005f87
+airline_tabfill_to_airline_tablabel_right xxx guifg=#0087af guibg=#005f87
+CocErrorLine   xxx cleared
+CocWarningLine xxx cleared
+CocInfoLine    xxx cleared
+CocHintLine    xxx cleared
+CocSelectedLine xxx cleared
+BookmarkTextDefHi xxx links to Identifier
+HighlightedyankRegion xxx links to IncSearch
+CocGitChangedSign xxx links to DiffChange
+CocGitAddedSign xxx links to DiffAdd
+CocGitRemovedSign xxx links to DiffDelete
+CocGitTopRemovedSign xxx links to DiffDelete
+CocGitChangeRemovedSign xxx links to DiffChange
+CursorIM       xxx cleared
+StatusLineTerm xxx cleared
+StatusLineTermNC xxx cleared
+Terminal       xxx cleared
+debugPC        xxx cleared
+debugBreakpoint xxx cleared
+cssAttrComma   xxx cleared
+cssAttributeSelector xxx cleared
+cssClassNameDot xxx cleared
+cssDefinition  xxx cleared
+cssFontAttr    xxx cleared
+cssFontDescriptor xxx cleared
+cssInclude     xxx cleared
+cssIncludeKeyword xxx cleared
+cssMediaType   xxx cleared
+cssProp        xxx cleared
+cssPseudoClassId xxx cleared
+cssTagName     xxx cleared
+fishKeyword    xxx cleared
+fishConditional xxx cleared
+goFunctionCall xxx cleared
+goVarDefs      xxx cleared
+goVarAssign    xxx cleared
+goVar          xxx cleared
+goConst        xxx cleared
+goType         xxx cleared
+goTypeName     xxx cleared
+goTypeDecl     xxx cleared
+htmlH1         xxx cleared
+htmlH2         xxx cleared
+htmlH3         xxx cleared
+htmlH4         xxx cleared
+htmlH5         xxx cleared
+htmlH6         xxx cleared
+htmlTitle      xxx cleared
+javaScriptRequire xxx cleared
+javaScriptReserved xxx cleared
+jsArrowFunction xxx cleared
+jsClassMethodType xxx cleared
+jsDocParam     xxx cleared
+jsDocTags      xxx cleared
+jsExport       xxx cleared
+jsFrom         xxx cleared
+jsFuncCall     xxx cleared
+jsGenerator    xxx cleared
+jsImport       xxx cleared
+jsModuleAs     xxx cleared
+jsModuleWords  xxx cleared
+jsModules      xxx cleared
+jsOperator     xxx cleared
+jsStorageClass xxx cleared
+jsSuper        xxx cleared
+jsTemplateVar  xxx cleared
+jsThis         xxx cleared
+javascriptMethodName xxx cleared
+javascriptOpSymbol xxx cleared
+javascriptOpSymbols xxx cleared
+jsonCommentError xxx cleared
+jsonBoolean    xxx cleared
+jsonNumber     xxx cleared
+jsonMissingCommaError xxx cleared
+jsonNoQuotesError xxx cleared
+jsonNumError   xxx cleared
+jsonStringSQError xxx cleared
+jsonSemicolonError xxx cleared
+lessVariable   xxx cleared
+lessAmpersandChar xxx cleared
+lessClass      xxx cleared
+markdownBold   xxx cleared
+markdownId     xxx cleared
+markdownIdDelimiter xxx cleared
+perlFiledescRead xxx cleared
+perlFunction   xxx cleared
+perlMatchStartEnd xxx cleared
+perlMethod     xxx cleared
+perlPOD        xxx cleared
+perlSharpBang  xxx cleared
+perlSpecialString xxx cleared
+perlStatementFiledesc xxx cleared
+perlStatementFlow xxx cleared
+perlStatementInclude xxx cleared
+perlStatementScalar xxx cleared
+perlStatementStorage xxx cleared
+perlSubName    xxx cleared
+perlVarPlain   xxx cleared
+phpVarSelector xxx cleared
+phpOperator    xxx cleared
+phpParent      xxx cleared
+phpMemberSelector xxx cleared
+phpType        xxx cleared
+phpKeyword     xxx cleared
+phpClass       xxx cleared
+phpUseClass    xxx cleared
+phpUseAlias    xxx cleared
+phpInclude     xxx cleared
+phpClassExtends xxx cleared
+phpDocTags     xxx cleared
+phpFunction    xxx cleared
+phpFunctions   xxx cleared
+phpMethodsVar  xxx cleared
+phpMagicConstants xxx cleared
+phpSuperglobals xxx cleared
+phpConstants   xxx cleared
+rubyBlockParameter xxx cleared
+rubyBlockParameterList xxx cleared
+rubyClass      xxx cleared
+rubyConstant   xxx cleared
+rubyControl    xxx cleared
+rubyEscape     xxx cleared
+rubyFunction   xxx cleared
+rubyGlobalVariable xxx cleared
+rubyInclude    xxx cleared
+rubyIncluderubyGlobalVariable xxx cleared
+rubyInstanceVariable xxx cleared
+rubyInterpolation xxx cleared
+rubyRegexp     xxx cleared
+rubyRegexpDelimiter xxx cleared
+rubySymbol     xxx cleared
+sassAmpersand  xxx cleared
+sassClass      xxx cleared
+sassControl    xxx cleared
+sassExtend     xxx cleared
+sassFor        xxx cleared
+sassFunction   xxx cleared
+sassId         xxx cleared
+sassInclude    xxx cleared
+sassMedia      xxx cleared
+sassMediaOperators xxx cleared
+sassMixin      xxx cleared
+sassMixinName  xxx cleared
+sassMixing     xxx cleared
+sassVariable   xxx cleared
+scssExtend     xxx cleared
+scssImport     xxx cleared
+scssInclude    xxx cleared
+scssMixin      xxx cleared
+scssSelectorName xxx cleared
+scssVariable   xxx cleared
+texStatement   xxx cleared
+texSubscripts  xxx cleared
+texSuperscripts xxx cleared
+texTodo        xxx cleared
+texBeginEnd    xxx cleared
+texBeginEndName xxx cleared
+texMathMatcher xxx cleared
+texMathDelim   xxx cleared
+texDelimiter   xxx cleared
+texSpecialChar xxx cleared
+texCite        xxx cleared
+texRefZone     xxx cleared
+EasyMotionTarget2First xxx cleared
+EasyMotionTarget2Second xxx cleared
+NeomakeWarningSign xxx cleared
+NeomakeErrorSign xxx cleared
+NeomakeInfoSign xxx cleared
+mkdDelimiter   xxx cleared
+mkdHeading     xxx cleared
+mkdLink        xxx cleared
+mkdUrl         xxx cleared
+gitcommitComment xxx cleared
+gitcommitUnmerged xxx cleared
+gitcommitOnBranch xxx cleared
+gitcommitBranch xxx cleared
+gitcommitDiscardedType xxx cleared
+gitcommitSelectedType xxx cleared
+gitcommitHeader xxx cleared
+gitcommitUntrackedFile xxx cleared
+gitcommitUnmergedFile xxx cleared
+gitcommitFile  xxx cleared
+gitcommitSummary xxx cleared
+gitcommitOverflow xxx cleared
+gitcommitNoBranch xxx links to gitcommitBranch
+gitcommitUntracked xxx links to gitcommitComment
+gitcommitDiscarded xxx links to gitcommitComment
+gitcommitSelected xxx links to gitcommitComment
+gitcommitDiscardedArrow xxx links to gitcommitDiscardedFile
+gitcommitSelectedArrow xxx links to gitcommitSelectedFile
+gitcommitUnmergedArrow xxx links to gitcommitUnmergedFile
+airline_tabfill_to_airline_tablabel_right_inactive xxx guifg=grey20 guibg=grey20
+airline_tabfill_to_airline_tabfill_inactive xxx guifg=grey20 guibg=grey20
+VimwikiBold    xxx cterm=bold gui=bold
+VimwikiItalic  xxx cterm=italic gui=italic
+VimwikiBoldItalic xxx cterm=bold gui=bold,italic
+VimwikiUnderline xxx gui=underline
+airline_tabmod_to_airline_tabfill xxx guifg=#e4e4e4 guibg=#005f87
+airline_c2_inactive xxx cleared
+airline_tabsel_to_airline_tabfill xxx guifg=#e4e4e4 guibg=#005f87
+airline_tabsel_to_airline_tabfill_inactive xxx guifg=grey20 guibg=grey20
+airline_tabmod_to_airline_tabfill_inactive xxx guifg=grey20 guibg=grey20
+airline_tabhid_to_airline_tabmod xxx guifg=#005f87 guibg=#e4e4e4
+airline_c4_inactive xxx cleared
+airline_tabhid_to_airline_tabsel xxx guifg=#005f87 guibg=#e4e4e4
+bold           xxx cleared
+Italic         xxx cleared
+TooLong        xxx cleared
+helpCommand    xxx cleared
+helpExample    xxx cleared
+helpHeader     xxx cleared
+helpSectionDelim xxx cleared
+asciidocListingBlock xxx cleared
+cInclude       xxx cleared
+cPreCondit     xxx cleared
+cPreConditMatch xxx cleared
+cType          xxx cleared
+cStorageClass  xxx cleared
+cStatement     xxx cleared
+cTODO          xxx cleared
+cConstant      xxx cleared
+cSpecial       xxx cleared
+cSpecialCharacter xxx cleared
+cString        xxx cleared
+cppType        xxx cleared
+cppStorageClass xxx cleared
+cppStructure   xxx cleared
+cppModifier    xxx cleared
+cppOperator    xxx cleared
+cppAccess      xxx cleared
+cppStatement   xxx cleared
+cppConstant    xxx cleared
+cCppString     xxx cleared
+cucumberGiven  xxx cleared
+cucumberWhen   xxx cleared
+cucumberWhenAnd xxx cleared
+cucumberThen   xxx cleared
+cucumberThenAnd xxx cleared
+cucumberUnparsed xxx cleared
+cucumberFeature xxx cleared
+cucumberBackground xxx cleared
+cucumberScenario xxx cleared
+cucumberScenarioOutline xxx cleared
+cucumberTags   xxx cleared
+cucumberDelimiter xxx cleared
+cssStringQ     xxx cleared
+cssStringQQ    xxx cleared
+cssAttr        xxx cleared
+sassProperty   xxx cleared
+elixirModuleDefine xxx cleared
+elixirAlias    xxx cleared
+elixirAtom     xxx cleared
+elixirBlockDefinition xxx cleared
+elixirInclude  xxx cleared
+elixirOperator xxx cleared
+goField        xxx cleared
+goMethod       xxx cleared
+goUnsignedInts xxx cleared
+haskellKeyword xxx cleared
+MatchTag       xxx cleared
+coffeeString   xxx cleared
+jsBraces       xxx cleared
+jsClassBraces  xxx cleared
+jsClassKeywords xxx cleared
+jsFuncBraces   xxx cleared
+jsNoise        xxx cleared
+jsObjectValue  xxx cleared
+jsObjectKey    xxx cleared
+jsReturn       xxx cleared
+jsonTrailingCommaError xxx cleared
+pugAttributesDelimiter xxx cleared
+pugClass       xxx cleared
+pugDocType     xxx cleared
+pugTag         xxx cleared
+purescriptKeyword xxx cleared
+purescriptIdentifier xxx cleared
+pythonStatement xxx cleared
+pythonParam    xxx cleared
+pythonEscape   xxx cleared
+pythonSelf     xxx cleared
+pythonClass    xxx cleared
+pythonKeyword  xxx cleared
+pythonModule   xxx cleared
+pythonStringDelimiter xxx cleared
+pythonSymbol   xxx cleared
+rubyBlock      xxx cleared
+rubyCapitalizedMethod xxx cleared
+rubyDefine     xxx cleared
+rubyKeyword    xxx cleared
+rubyModule     xxx cleared
+rubyPseudoVariable xxx cleared
+vimCommand     xxx cleared
+vimFunction    xxx cleared
+vimFuncName    xxx cleared
+vimHighlight   xxx cleared
+vimLineComment xxx cleared
+vimParenSep    xxx cleared
+vimUserFunc    xxx cleared
+vimVar         xxx cleared
+zshCommands    xxx cleared
+zshDeref       xxx cleared
+zshShortDeref  xxx cleared
+zshFunction    xxx cleared
+zshKeyword     xxx cleared
+zshSubst       xxx cleared
+zshSubstDelim  xxx cleared
+zshTypes       xxx cleared
+zshVariableDef xxx cleared
+rustExternCrate xxx cleared
+rustIdentifier xxx cleared
+rustDeriveTrait xxx cleared
+rustCommentLine xxx cleared
+rustCommentLineDoc xxx cleared
+rustCommentLineDocError xxx cleared
+rustCommentBlock xxx cleared
+rustCommentBlockDoc xxx cleared
+rustCommentBlockDocError xxx cleared
+manTitle       xxx links to String
+manFooter      xxx cleared
+airline_tabhid_to_airline_tabmod_inactive xxx guifg=grey20 guibg=grey20
+airline_tabhid_to_airline_tabsel_inactive xxx guifg=grey20 guibg=grey20
+airline_c6_inactive xxx cleared
+Global         xxx cleared
+vimFuncKey     xxx cleared
+vimNotFunc     xxx cleared
+vimMap         xxx cleared
+vimAutoEvent   xxx cleared
+vimIsCommand   xxx cleared
+vimFuncVar     xxx cleared
+vimLet         xxx cleared
+vimMapRhsExtend xxx cleared
+vimOper        xxx cleared
+vimOperParen   xxx cleared
+vimSynType     xxx cleared
+vimSynReg      xxx cleared
+vimSynRegion   xxx cleared
+vimSynMtchGrp  xxx cleared
+vimSynNextgroup xxx cleared
+vimSynKeyRegion xxx cleared
+vimSynRegOpt   xxx cleared
+vimSynMtchOpt  xxx cleared
+vimSynContains xxx cleared
+vimGroupName   xxx cleared
+vimGroupList   xxx cleared
+vimHiGroup     xxx cleared
+vimGroup       xxx cleared
+vimOnlyOption  xxx cleared
+makeIdent      xxx cleared
+makeSpecTarget xxx cleared
+makeTarget     xxx cleared
+makeStatement  xxx cleared
+makeCommands   xxx cleared
+makeSpecial    xxx cleared
+cmakeStatement xxx cleared
+cmakeArguments xxx cleared
+cmakeVariableValue xxx cleared
+cmakeCommand   xxx cleared
+cmakeCommandConditional xxx cleared
+cmakeKWset     xxx cleared
+cmakeKWvariable_watch xxx cleared
+cmakeKWif      xxx cleared
+cmakeKWproject xxx cleared
+cmakeGeneratorExpressions xxx cleared
+cmakeGeneratorExpression xxx cleared
+cmakeVariable  xxx cleared
+cmakeProperty  xxx cleared
+cmakeKWforeach xxx cleared
+cmakeKWunset   xxx cleared
+cmakeKWmacro   xxx cleared
+cmakeKWget_property xxx cleared
+cmakeKWset_tests_properties xxx cleared
+cmakeKWmessage xxx cleared
+cmakeKWinstall_targets xxx cleared
+cmakeKWsource_group xxx cleared
+cmakeKWfind_package xxx cleared
+cmakeKWstring  xxx cleared
+cmakeKWinstall xxx cleared
+cmakeKWtarget_sources xxx cleared
+cFormat        xxx cleared
+cBoolean       xxx cleared
+cCharacter     xxx cleared
+cConditional   xxx cleared
+cDefine        xxx cleared
+cNumber        xxx cleared
+cRepeat        xxx cleared
+cLabel         xxx cleared
+cDelimiter     xxx cleared
+cCustomParen   xxx cleared
+cOctalZero     xxx cleared
+cFunction      xxx cleared
+cppBoolean     xxx cleared
+cppSTLnamespace xxx cleared
+cppSTLexception xxx cleared
+cppSTLfunctional xxx cleared
+cppSTLiterator xxx cleared
+cppExceptions  xxx cleared
+cppSTLconstant xxx cleared
+cppSTLtype     xxx cleared
+cppSTLfunction xxx cleared
+cppSTLios      xxx cleared
+rustKeyword    xxx cleared
+rustModPath    xxx cleared
+rustModPathSep xxx cleared
+rustLifetime   xxx cleared
+rustStructure  xxx cleared
+rustAttribute  xxx cleared
+rustPanic      xxx cleared
+rustTrait      xxx cleared
+rustEnum       xxx cleared
+rustEnumVariant xxx cleared
+rustSelf       xxx cleared
+rustSigil      xxx cleared
+rustOperator   xxx cleared
+rustMacro      xxx cleared
+rustMacroVariable xxx cleared
+rustAssert     xxx cleared
+rustConditional xxx cleared
+lexCFunctions  xxx cleared
+lexAbbrv       xxx cleared
+lexAbbrvRegExp xxx cleared
+lexAbbrvComment xxx cleared
+lexBrace       xxx cleared
+lexPat         xxx cleared
+lexPatComment  xxx cleared
+lexPatTag      xxx cleared
+lexSlashQuote  xxx cleared
+lexSep         xxx cleared
+lexStartState  xxx cleared
+lexPatTagZone  xxx cleared
+lexMorePat     xxx cleared
+lexOptions     xxx cleared
+lexPatString   xxx cleared
+yaccNonterminal xxx cleared
+yaccDelim      xxx cleared
+yaccInitKey    xxx cleared
+yaccInit       xxx cleared
+yaccKey        xxx cleared
+yaccVar        xxx cleared
+nasmStdInstruction xxx cleared
+nasmGen08Register xxx cleared
+nasmGen16Register xxx cleared
+nasmGen32Register xxx cleared
+nasmGen64Register xxx cleared
+nasmHexNumber  xxx cleared
+nasmStorage    xxx cleared
+nasmLabel      xxx cleared
+nasmDirective  xxx cleared
+nasmLocalLabel xxx cleared
+gasSymbol      xxx cleared
+gasDirective   xxx cleared
+gasOpcode_386_Base xxx cleared
+gasDecimalNumber xxx cleared
+gasSymbolRef   xxx cleared
+gasRegisterX86 xxx cleared
+gasOpcode_P6_Base xxx cleared
+gasDirectiveStore xxx cleared
+mipsInstruction xxx cleared
+mipsRegister   xxx cleared
+mipsLabel      xxx cleared
+mipsDirective  xxx cleared
+bashStatement  xxx cleared
+shDerefVar     xxx cleared
+shDerefSimple  xxx cleared
+shFunction     xxx cleared
+shStatement    xxx cleared
+shLoop         xxx cleared
+shQuote        xxx cleared
+shCaseEsac     xxx cleared
+shSnglCase     xxx cleared
+shFunctionOne  xxx cleared
+shCase         xxx cleared
+shSetList      xxx cleared
+ps1Type        xxx cleared
+ps1Variable    xxx cleared
+ps1Boolean     xxx cleared
+ps1FunctionInvocation xxx cleared
+ps1FunctionDeclaration xxx cleared
+ps1Keyword     xxx cleared
+ps1Exception   xxx cleared
+ps1Operator    xxx cleared
+ps1CommentDoc  xxx cleared
+ps1CDocParam   xxx cleared
+htmlString     xxx cleared
+htmlComment    xxx cleared
+htmlCommentPart xxx cleared
+cssNoise       xxx cleared
+cssTableAttr   xxx cleared
+cssPositioningAttr xxx cleared
+cssValueLength xxx cleared
+cssUnitDecorators xxx cleared
+markdownLink   xxx cleared
+mkdCode        xxx cleared
+mkdString      xxx cleared
+mkdBlockQuote  xxx cleared
+mkdLinkTitle   xxx cleared
+mkdRule        xxx cleared
+rstSections    xxx cleared
+rstDelimiter   xxx cleared
+rstExplicitMarkup xxx cleared
+rstDirective   xxx cleared
+rstHyperlinkTarget xxx cleared
+rstExDirective xxx cleared
+rstInlineLiteral xxx cleared
+rstInterpretedTextOrHyperlinkReference xxx cleared
+pythonPreCondit xxx cleared
+pythonExClass  xxx cleared
+pythonString   xxx cleared
+pythonStrFormatting xxx cleared
+pythonBytesEscape xxx cleared
+pythonStrFormat xxx cleared
+javaExternal   xxx cleared
+javaTypedef    xxx cleared
+javaClassDecl  xxx cleared
+javaScopeDecl  xxx cleared
+javaStorageClass xxx cleared
+javaBoolean    xxx cleared
+javaConstant   xxx cleared
+javaDocComment xxx cleared
+javaDocParam   xxx cleared
+javaStatement  xxx cleared
+javaScriptConditional xxx cleared
+javaScriptRepeat xxx cleared
+javaScriptBoolean xxx cleared
+javascriptStatement xxx cleared
+jsxTagName     xxx cleared
+jsxComponentName xxx cleared
+jsxAttrib      xxx cleared
+jsxEqual       xxx cleared
+jsxString      xxx cleared
+jsxCloseTag    xxx cleared
+jsxCloseString xxx cleared
+jsxDot         xxx cleared
+jsxNamespace   xxx cleared
+jsxPunct       xxx cleared
+jsonNoise      xxx cleared
+jsonKeywordMatch xxx cleared
+jsonNull       xxx cleared
+goStatement    xxx cleared
+goConditional  xxx cleared
+goFunction     xxx cleared
+stapComment    xxx cleared
+stapProbe      xxx cleared
+stapStat       xxx cleared
+stapFunc       xxx cleared
+stapString     xxx cleared
+stapTarget     xxx cleared
+stapStatement  xxx cleared
+stapType       xxx cleared
+stapSharpBang  xxx cleared
+stapDeclaration xxx cleared
+stapCMacro     xxx cleared
+dtraceProbe    xxx cleared
+dtracePredicate xxx cleared
+dtraceComment  xxx cleared
+dtraceFunction xxx cleared
+dtraceAggregatingFunction xxx cleared
+dtraceStatement xxx cleared
+dtraceIdentifier xxx cleared
+dtraceOption   xxx cleared
+dtraceConstant xxx cleared
+dtraceType     xxx cleared
+plantumlPreProc xxx cleared
+plantumlDirectedOrVerticalArrowRL xxx cleared
+plantumlDirectedOrVerticalArrowLR xxx cleared
+plantumlString xxx cleared
+plantumlActivityThing xxx cleared
+plantumlText   xxx cleared
+plantumlClassPublic xxx cleared
+plantumlClassPrivate xxx cleared
+plantumlColonLine xxx cleared
+plantumlClass  xxx cleared
+plantumlHorizontalArrow xxx cleared
+plantumlTypeKeyword xxx cleared
+plantumlKeyword xxx cleared
+plantumlType   xxx cleared
+plantumlBlock  xxx cleared
+plantumlPreposition xxx cleared
+plantumlLayout xxx cleared
+plantumlNote   xxx cleared
+plantumlLifecycle xxx cleared
+plantumlParticipant xxx cleared
+sqlStatement   xxx cleared
+sqlType        xxx cleared
+sqlKeyword     xxx cleared
+sqlOperator    xxx cleared
+sqlSpecial     xxx cleared
+mysqlVariable  xxx cleared
+mysqlType      xxx cleared
+mysqlKeyword   xxx cleared
+mysqlOperator  xxx cleared
+mysqlSpecial   xxx cleared
+octaveVariable xxx cleared
+octaveDelimiter xxx cleared
+octaveQueryVar xxx cleared
+octaveSemicolon xxx cleared
+octaveFunction xxx cleared
+octaveSetVar   xxx cleared
+octaveUserVar  xxx cleared
+octaveArithmeticOperator xxx cleared
+octaveBeginKeyword xxx cleared
+octaveElseKeyword xxx cleared
+octaveEndKeyword xxx cleared
+octaveStatement xxx cleared
+rubyAccess     xxx cleared
+rubyAttribute  xxx cleared
+rubyLocalVariableOrMethod xxx cleared
+rubyCurlyBlock xxx cleared
+rubyCurlyBlockDelimiter xxx cleared
+rubyArrayDelimiter xxx cleared
+rubyConditional xxx cleared
+rubyRepeat     xxx cleared
+rubyException  xxx cleared
+rubyExceptional xxx cleared
+rubyBoolean    xxx cleared
+fortranUnitHeader xxx cleared
+fortranIntrinsic xxx cleared
+fortranType    xxx cleared
+fortranTypeOb  xxx cleared
+fortranStructure xxx cleared
+fortranStorageClass xxx cleared
+fortranStorageClassR xxx cleared
+fortranKeyword xxx cleared
+fortranReadWrite xxx cleared
+fortranIO      xxx cleared
+fortranOperator xxx cleared
+fortranCall    xxx cleared
+fortranContinueMark xxx cleared
+algol68Statement xxx cleared
+algol68Operator xxx cleared
+algol68PreProc xxx cleared
+algol68Function xxx cleared
+rType          xxx cleared
+rArrow         xxx cleared
+rDollar        xxx cleared
+xxdAddress     xxx cleared
+xxdSep         xxx cleared
+xxdAscii       xxx cleared
+xxdDot         xxx cleared
+phpIdentifier  xxx cleared
+phpRepeat      xxx cleared
+phpConditional xxx cleared
+phpStatement   xxx cleared
+phpAssignByRef xxx cleared
+phpSpecialFunction xxx cleared
+phpComparison  xxx cleared
+phpBackslashSequences xxx cleared
+phpStorageClass xxx cleared
+phpDefine      xxx cleared
+phpIntVar      xxx cleared
+pascalType     xxx cleared
+pascalStatement xxx cleared
+pascalPredefined xxx cleared
+pascalFunction xxx cleared
+pascalStruct   xxx cleared
+pascalOperator xxx cleared
+pascalPreProc  xxx cleared
+pascalAcces    xxx cleared
+luaFunc        xxx cleared
+luaStatement   xxx cleared
+luaRepeat      xxx cleared
+luaCondStart   xxx cleared
+luaConstant    xxx cleared
+luaElse        xxx cleared
+luaCondElseif  xxx cleared
+luaCond        xxx cleared
+luaCondEnd     xxx cleared
+clojureConstant xxx cleared
+clojureBoolean xxx cleared
+clojureNumber  xxx cleared
+clojureString  xxx cleared
+clojureDispatch xxx cleared
+dockerfileKeyword xxx cleared
+shOperator     xxx cleared
+shOption       xxx cleared
+shLine         xxx cleared
+shWrapLineOperator xxx cleared
+ngxDirectiveBlock xxx cleared
+ngxDirective   xxx cleared
+ngxDirectiveImportant xxx cleared
+ngxString      xxx cleared
+ngxVariableString xxx cleared
+ngxVariable    xxx cleared
+yamlBlockMappingKey xxx cleared
+yamlKeyValueDelimiter xxx cleared
+yamlBlockCollectionItemStart xxx cleared
+qmlObjectLiteralType xxx cleared
+qmlReserved    xxx cleared
+qmlBindingProperty xxx cleared
+qmlType        xxx cleared
+dosiniHeader   xxx cleared
+dosiniLabel    xxx cleared
+mailHeaderKey  xxx cleared
+mailHeaderEmail xxx cleared
+mailSubject    xxx cleared
+mailHeader     xxx cleared
+mailURL        xxx cleared
+mailEmail      xxx cleared
+mailQuoted1    xxx cleared
+mailQuoted2    xxx cleared
+xmlString      xxx cleared
+xmlNamespace   xxx cleared
+elixirVariable xxx cleared
+elixirUnusedVariable xxx cleared
+elixirKeyword  xxx cleared
+elixirFunctionDeclaration xxx cleared
+elixirDefine   xxx cleared
+elixirStructDefine xxx cleared
+elixirPrivateDefine xxx cleared
+elixirProtocolDefine xxx cleared
+elixirImplDefine xxx cleared
+elixirDocTest  xxx cleared
+erlangBIF      xxx cleared
+erlangBracket  xxx cleared
+erlangLocalFuncCall xxx cleared
+erlangVariable xxx cleared
+erlangAtom     xxx cleared
+erlangAttribute xxx cleared
+erlangRecordDef xxx cleared
+erlangRecord   xxx cleared
+erlangRightArrow xxx cleared
+erlangStringModifier xxx cleared
+erlangInclude  xxx cleared
+erlangKeyword  xxx cleared
+erlangGlobalFuncCall xxx cleared
+cucumberGivenAnd xxx cleared
+cucumberExamples xxx cleared
+cucumberPlaceholder xxx cleared
+adaInc         xxx cleared
+adaSpecial     xxx cleared
+adaKeyword     xxx cleared
+adaBegin       xxx cleared
+adaEnd         xxx cleared
+adaTypedef     xxx cleared
+adaAssignment  xxx cleared
+adaAttribute   xxx cleared
+cobolMarker    xxx cleared
+cobolLine      xxx cleared
+cobolReserved  xxx cleared
+cobolDivision  xxx cleared
+cobolDivisionName xxx cleared
+cobolSection   xxx cleared
+cobolSectionName xxx cleared
+cobolParagraph xxx cleared
+cobolParagraphName xxx cleared
+cobolDeclA     xxx cleared
+cobolDecl      xxx cleared
+cobolCALLs     xxx cleared
+cobolEXECs     xxx cleared
+sedST          xxx cleared
+sedFlag        xxx cleared
+sedRegexp47    xxx cleared
+sedRegexpMeta  xxx cleared
+sedReplacement47 xxx cleared
+sedReplaceMeta xxx cleared
+sedAddress     xxx cleared
+sedFunction    xxx cleared
+sedBranch      xxx cleared
+sedLabel       xxx cleared
+awkPatterns    xxx cleared
+awkSearch      xxx cleared
+awkRegExp      xxx cleared
+awkCharClass   xxx cleared
+awkFieldVars   xxx cleared
+awkStatement   xxx cleared
+awkFunction    xxx cleared
+awkVariables   xxx cleared
+awkArrayElement xxx cleared
+awkOperator    xxx cleared
+awkBoolLogic   xxx cleared
+awkExpression  xxx cleared
+awkSpecialPrintf xxx cleared
+elmImport      xxx cleared
+elmAlias       xxx cleared
+elmType        xxx cleared
+elmOperator    xxx cleared
+elmBraces      xxx cleared
+elmTypedef     xxx cleared
+elmTopLevelDecl xxx cleared
+purescriptLet  xxx cleared
+purescriptStatement xxx cleared
+fsharpTypeName xxx cleared
+fsharpCoreClass xxx cleared
+fsharpType     xxx cleared
+fsharpKeyword  xxx cleared
+fsharpOperator xxx cleared
+fsharpBoolean  xxx cleared
+fsharpFormat   xxx cleared
+fsharpLinq     xxx cleared
+fsharpKeyChar  xxx cleared
+fsharpOption   xxx cleared
+fsharpCoreMethod xxx cleared
+fsharpAttrib   xxx cleared
+fsharpModifier xxx cleared
+fsharpOpen     xxx cleared
+asnExternal    xxx cleared
+asnTagModifier xxx cleared
+asnBraces      xxx cleared
+asnDefinition  xxx cleared
+asnStructure   xxx cleared
+asnType        xxx cleared
+asnTypeInfo    xxx cleared
+asnFieldOption xxx cleared
+netrwHidePat   xxx cleared
+netrwQuickHelp xxx cleared
+netrwSuffixes  xxx cleared
+netrwTreeBar   xxx cleared
+NERDTreeHelpCommand xxx cleared
+NERDTreeHelpTitle xxx cleared
+NERDTreeHelpKey xxx cleared
+TagbarHelpTitle xxx cleared
+TagbarHelp     xxx cleared
+TagbarKind     xxx cleared
+TagbarSignature xxx cleared
+agitHead       xxx cleared
+agitHeader     xxx cleared
+agitStatAdded  xxx cleared
+agitStatRemoved xxx cleared
+agitDiffAdd    xxx cleared
+agitDiffRemove xxx cleared
+agitDiffHeader xxx cleared
+agitDiff       xxx cleared
+agitDiffIndex  xxx cleared
+agitDiffFileName xxx cleared
+agitLog        xxx cleared
+agitAuthorMark xxx cleared
+agitDateMark   xxx cleared
+agitHeaderLabel xxx cleared
+agitDate       xxx cleared
+agitTree       xxx cleared
+agitRef        xxx cleared
+agitRemote     xxx cleared
+agitTag        xxx cleared
+gitcommitDiff  xxx cleared
+diffSubname    xxx cleared
+diffIndexLine  xxx cleared
+diffBDiffer    xxx cleared
+airline_c8_inactive xxx cleared
+airline_c10_inactive xxx ctermfg=240 ctermbg=254 guifg=#585858 guibg=#e4e4e4
